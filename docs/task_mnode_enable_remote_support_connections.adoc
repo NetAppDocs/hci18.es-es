@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: docs/task_mnode_enable_remote_support_connections.html 
+summary: Es posible utilizar el nodo de gestión para habilitar el acceso al soporte de NetApp para la solución de problemas. 
+keywords: netapp, mnode, management node, connect to support, support tunnel, rst 
+---
+= Inicie una sesión de soporte remota de NetApp
+:allow-uri-read: 
+
+
+[role="lead"]
+Si necesita soporte técnico para su sistema NetApp HCI, el soporte de NetApp puede conectarse de forma remota con su sistema. Para iniciar una sesión y tener acceso remoto, el soporte de NetApp puede abrir una conexión de Secure Shell (SSH) inversa a su entorno.
+
+.Acerca de esta tarea
+Puede abrir un puerto TCP para una conexión de túnel SSH inverso con el soporte de NetApp. Gracias a esta conexión, el soporte de NetApp puede iniciar sesión en su nodo de gestión. Si el nodo de gestión está detrás de un servidor proxy, se necesitan los siguientes puertos TCP en el archivo sshd.config:
+
+[cols="15,25,60"]
+|===
+| Puerto TCP | Descripción | Dirección de conexión 
+
+
+| 443 | Llamadas API/HTTPS para un reenvío de puertos inverso a través de un túnel de soporte abierto a la interfaz de usuario web | Del nodo de gestión a los nodos de almacenamiento 
+
+
+| 22 | Acceso de inicio de sesión SSH | Del nodo de gestión a los nodos de almacenamiento o desde los nodos de almacenamiento al nodo de gestión 
+|===
+
+NOTE: De forma predeterminada, la capacidad de acceso remoto está habilitada en el nodo de gestión. Para desactivar la función de acceso remoto, consulte link:task_mnode_ssh_management.html["Gestione la funcionalidad SSH en el nodo de gestión"]. Puede activar la funcionalidad de acceso remoto de nuevo, si es necesario.
+
+.Pasos
+* Inicie sesión en su nodo de almacenamiento y abra una sesión de terminal.
+* En un símbolo del sistema, introduzca lo siguiente:
++
+`rst -r  sfsupport.solidfire.com -u element -p <port_number>`
+
+* Para cerrar el túnel de soporte remoto, introduzca lo siguiente:
++
+`rst --killall`
+
+
+
+[discrete]
+== Obtenga más información
+
+* https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["Página de recursos de NetApp HCI"^]
+

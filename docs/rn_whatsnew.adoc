@@ -1,0 +1,128 @@
+---
+sidebar: sidebar 
+permalink: docs/rn_whatsnew.html 
+summary: Descubra las novedades de esta versión de NetApp HCI. 
+keywords: netapp, hci, element, new, whatsnew 
+---
+= Novedades en NetApp HCI
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp actualiza periódicamente NetApp HCI para ofrecerle nuevas funciones, mejoras y correcciones de errores. NetApp HCI 1.8P1 incluye Element 12,2 para los clústeres de almacenamiento.
+
+* La <<NetApp HCI 1.8P1>> sección describe las nuevas funciones y actualizaciones de NetApp HCI versión 1.8P1.
+* <<Elemento 12.2>>La sección describe las nuevas funciones y actualizaciones de NetApp Element 12,2.
+
+
+
+
+== NetApp HCI 1.8P1
+
+NetApp HCI 1.8P1 incluye mejoras de seguridad y estabilidad.
+
+
+
+=== Mejoras en la documentación de NetApp HCI
+
+Ahora puede acceder a la información de actualización, expansión, supervisión y conceptos de NetApp HCI en un formato fácil de navegar link:index.html["aquí"^].
+
+
+
+=== Disponibilidad del plugin de NetApp Element para vCenter Server 4.5
+
+El plugin NetApp Element para vCenter Server 4,5 está disponible fuera de las versiones del nodo de gestión 12,2 y NetApp HCI 1.8P1. Para actualizar el plugin, siga las instrucciones que se indican en link:concept_hci_upgrade_overview.html["Actualizaciones de NetApp HCI"]la documentación.
+
+
+
+=== Mejoras en el control del cloud híbrido de NetApp
+
+El control del cloud híbrido de NetApp se ha mejorado para la versión 1.8P1. https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["Leer más"^].
+
+
+
+== Elemento 12.2
+
+NetApp HCI 1.8P1 incluye Element 12,2 para los clústeres de almacenamiento. Element 12,2 presenta el SDS empresarial de SolidFire, el cifrado de software en reposo, modo de mantenimiento, seguridad de acceso a volúmenes mejorada, acceso a interfaces de usuario totalmente cualificadas (FQDN), actualizaciones de firmware de nodos de almacenamiento y actualizaciones de seguridad.
+
+
+
+=== SDS empresarial de SolidFire
+
+Element 12,2 presenta el SDS empresarial (eSDS) de SolidFire. SolidFire eSDS proporciona las ventajas de la tecnología de escalado horizontal de SolidFire y los servicios de datos del software NetApp Element en el hardware de su elección, que cumple con la configuración de referencia para SolidFire eSDS. http://docs.netapp.com/sfe-122/index.jsp?topic=%2Fcom.netapp.doc.sfe-sds-ig%2FGUID-F1BDD19F-AF33-4CDE-B67F-C5E17D4E6DE9.html["Leer más"^].
+
+A continuación se muestran los siguientes métodos API de elementos nuevos relacionados con SolidFire eSDS (http://docs.netapp.com/sfe-122/index.jsp?topic=%2Fcom.netapp.doc.sfe-sds-ug%2FGUID-4D335B61-6B68-4B81-AD6E-BCA1E7ABACD5.html["Información de la API de Element 12,2 para SolidFire eSDS"^] tiene más información):
+
+* `GetLicenseKey`
+* `SetLicenseKey`
+
+
+
+
+=== Cifrado de software en reposo
+
+Element 12,2 introduce el cifrado de software en reposo, que se puede habilitar cuando se crea un clúster de almacenamiento (y se habilita de forma predeterminada al crear un clúster de almacenamiento de SDS empresarial de SolidFire). Esta función cifra todos los datos almacenados en las unidades SSD de los nodos de almacenamiento y provoca que solo un impacto en el rendimiento de I/o del cliente muy pequeño (~2 %).
+
+Los siguientes son los métodos API de Element relacionados con el cifrado de software en reposo (el http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/home.html["Guía de referencia de la API de Element"^] tiene más información):
+
+* `CreateCluster`
+
+
+
+
+=== Modo de mantenimiento
+
+Element 12,2 introduce el modo de mantenimiento, lo que permite desconectar un nodo de almacenamiento para realizar tareas de mantenimiento, como actualizaciones de software o reparaciones de hosts, a la vez que evita una sincronización completa de todos los datos. Si uno o varios nodos necesitan mantenimiento, puede minimizar el impacto de I/O en el resto del clúster de almacenamiento habilitando el modo de mantenimiento para esos nodos antes de comenzar. Puede utilizar el modo de mantenimiento tanto con los nodos de dispositivo como con los nodos de SolidFire eSDS.
+
+
+
+=== Seguridad de acceso de volúmenes mejorada
+
+Ahora se puede restringir el acceso de los volúmenes a ciertos iniciadores según la asociación VLAN (red virtual). Puede asociar iniciadores nuevos o existentes con una o más redes virtuales, restringiendo ese iniciador a destinos iSCSI accesibles a través de esas redes virtuales.
+
+Los siguientes son los métodos API de Element actualizados relacionados con estas mejoras de seguridad (el http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/home.html["Guía de referencia de la API de Element"^] tiene más información):
+
+* `CreateInitiators`
+* `ModifyInitiators`
+* `AddAccount`
+* `ModifyAccount`
+
+
+
+
+=== Acceso de nombre de dominio completo (FQDN) a las interfaces de usuario
+
+Element 12,2 admite el acceso a la interfaz web de clúster mediante FQDN. En los clústeres de almacenamiento 12,2 de Element, si utiliza el FQDN para acceder a interfaces de usuario web, como la interfaz de usuario web de Element, la interfaz de usuario por nodo o la interfaz de usuario del nodo de gestión, primero debe añadir una configuración de clúster de almacenamiento para identificar el FQDN que utiliza el clúster. Esta configuración permite que el clúster redirija correctamente una sesión de inicio de sesión y facilita una mejor integración con servicios externos como gestores de claves y proveedores de identidad para la autenticación multifactor. Esta función requiere servicios de gestión versión 2,15 o posterior. link:task_nde_access_ui_fqdn.html["Leer más"].
+
+
+
+=== Actualizaciones del firmware del nodo de almacenamiento
+
+Element 12.2 incluye actualizaciones de firmware para los nodos de almacenamiento. link:rn_relatedrn.html["Leer más"].
+
+
+
+=== Mejoras de seguridad
+
+Element 12,2 resuelve las vulnerabilidades de seguridad para los nodos de almacenamiento y el nodo de gestión. http://security.netapp.com/["Leer más"^] acerca de estas mejoras de seguridad.
+
+
+
+=== Nueva advertencia INTELIGENTE para unidades con fallo
+
+Element 12,2 ahora realiza comprobaciones del estado periódicas en las unidades de dispositivos SolidFire utilizando datos de estado INTELIGENTES de las unidades. Una unidad que no supera la comprobación DEL estado INTELIGENTE puede estar cerca de un fallo. Si una unidad no supera la comprobación del estado INTELIGENTE, aparece un nuevo error en el clúster de gravedad crítica: `Drive with serial: <serial number> in slot: <node slot><drive slot> has failed the SMART overall health check. To resolve this fault, replace the drive`
+
+[discrete]
+== Obtenga más información
+
+* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["Notas de la versión de los servicios de gestión y control del cloud híbrido de NetApp"^]
+* https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
+* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
+* http://docs.netapp.com/sfe-122/index.jsp["Centro de documentación de SolidFire y el software Element"^]
+* link:firmware_driver_versions.html["Versiones de firmware y controlador ESXi compatibles para las versiones de NetApp HCI y firmware para los nodos de almacenamiento NetApp HCI"]
+
