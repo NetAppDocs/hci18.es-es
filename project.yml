@@ -381,4 +381,4 @@ sidebar:
     - title: Sustituya el nodo de almacenamiento en un clúster de dos nodos
       url: "/docs/task_hci_2noderepl.html"
   - title: Avisos legales
-    url: "/docs/reference_notices_hci.html"
+    url: "/legal-notices.html"
