@@ -91,6 +91,5 @@ Si el motor de puesta en marcha de NetApp falla porque su red no admite tramas g
 [discrete]
 == Obtenga más información
 
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Recursos de NetApp HCI"^]
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
 

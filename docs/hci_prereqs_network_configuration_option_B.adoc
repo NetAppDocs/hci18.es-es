@@ -74,6 +74,5 @@ NOTE: Algunos switches pueden requerir la inclusión de la VLAN nativa en la lis
 [discrete]
 == Obtenga más información
 
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Recursos de NetApp HCI"^]
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
 

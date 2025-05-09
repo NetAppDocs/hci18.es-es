@@ -156,5 +156,4 @@ Una actualización correcta devuelve un resultado similar al siguiente ejemplo:
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Página de recursos de NetApp HCI"^]
 

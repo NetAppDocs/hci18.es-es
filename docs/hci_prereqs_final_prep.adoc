@@ -105,5 +105,4 @@ Configuró la dirección IP de IPMI para cada nodo de almacenamiento y de comput
 
 * https://docs.netapp.com/us-en/solidfire-active-iq/index.html["Documentación de SolidFire Active IQ de NetApp"^]
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Página de recursos de NetApp HCI"^]
 

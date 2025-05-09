@@ -54,6 +54,5 @@ Todos los nodos NetApp HCI proporcionan funcionalidades de gestión fuera de ban
 [discrete]
 == Obtenga más información
 
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Recursos de NetApp HCI"^]
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
 

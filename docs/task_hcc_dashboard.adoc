@@ -180,6 +180,5 @@ image::hcc_dashboard_compute_util_cpu.png[Paneles de utilización de recursos in
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Página de recursos de NetApp HCI"^]
 * https://docs.netapp.com/us-en/solidfire-active-iq/index.html["Documentación de SolidFire Active IQ de NetApp"^]
 

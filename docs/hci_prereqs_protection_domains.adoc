@@ -19,6 +19,5 @@ El software NetApp Element admite la funcionalidad de dominios de protección, q
 [discrete]
 == Obtenga más información
 
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Recursos de NetApp HCI"^]
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
 

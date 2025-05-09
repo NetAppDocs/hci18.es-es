@@ -56,5 +56,4 @@ NOTE: Si intenta ejecutar un comando después de que caduque el token, `401 Erro
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Página de recursos de NetApp HCI"^]
 

@@ -256,5 +256,4 @@ IMPORTANT: Si previamente había deshabilitado la funcionalidad SSH en el nodo d
 
 * link:concept_hci_volumes.html#persistent-volumes["Volúmenes persistentes"]
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Página de recursos de NetApp HCI"^]
 

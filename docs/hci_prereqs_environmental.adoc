@@ -24,6 +24,5 @@ NOTE: El nodo de computación H410C solo funciona con tensión de línea alta (2
 [discrete]
 == Obtenga más información
 
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Recursos de NetApp HCI"^]
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
 

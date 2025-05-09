@@ -54,5 +54,4 @@ Deshabilite o habilite la funcionalidad SSH remota o inicie una sesión de túne
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["Página de recursos de NetApp HCI"^]
 
