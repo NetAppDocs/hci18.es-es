@@ -18,6 +18,7 @@ Después de haber montado en rack, cableado y encendido el hardware de NetApp HC
 
 
 
+[[prerequisites]]
 == Requisitos previos
 
 Una vez que haya comprobado que su entorno está listo para admitir NetApp HCI y que se resuelve cualquier problema potencial, tendrá que completar algunas tareas finales antes de la implementación.
@@ -29,6 +30,7 @@ Una vez que haya comprobado que su entorno está listo para admitir NetApp HCI y
 
 
 
+[[manually-assign-the-ipmi-port-ip-address]]
 == Asignar manualmente la dirección IP del puerto IPMI
 
 El protocolo de configuración dinámica de hosts (DHCP) está habilitado de forma predeterminada para el puerto IPMI de cada nodo NetApp HCI. Si la red IPMI no utiliza DHCP, es posible asignar manualmente una dirección IPv4 estática al puerto IPMI.
@@ -59,6 +61,7 @@ El puerto IPMI para este nodo está listo para usarse.
 
 
 
+[[change-the-default-ipmi-password-for-h410c-and-h410s-nodes]]
 == Cambie la contraseña de IPMI predeterminada para los nodos H410C y H410S
 
 En cuanto configure el puerto de red IPMI, debe cambiar la contraseña predeterminada de la cuenta de administrador de IPMI en cada nodo de computación y de almacenamiento.
@@ -80,6 +83,7 @@ Configuró la dirección IP de IPMI para cada nodo de almacenamiento y de comput
 
 
 
+[[change-the-default-ipmi-password-for-h610c-h615c-and-h610s-nodes]]
 == Cambie la contraseña de IPMI predeterminada para los nodos H610C, H615C y H610S
 
 En cuanto configure el puerto de red IPMI, debe cambiar la contraseña predeterminada de la cuenta de administrador de IPMI en cada nodo de computación y de almacenamiento.

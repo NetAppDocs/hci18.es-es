@@ -26,6 +26,7 @@ Elija la opción relevante para su entorno:
 
 
 
+[[configure-a-storage-network-interface-controller-nic-for-an-untagged-network-interface]]
 == Configure un controlador de interfaz de red (NIC) de almacenamiento para una interfaz de red sin etiquetas
 
 .Pasos
@@ -68,6 +69,7 @@ https://$mnode_IP:442/json-rpc/10.0 \
 
 
 
+[[configure-a-storage-network-interface-controller-nic-for-a-tagged-network-interface]]
 == Configure un controlador de interfaz de red (NIC) de almacenamiento para una interfaz de red etiquetada
 
 .Pasos

@@ -24,12 +24,14 @@ Las versiones de firmware y del controlador ESXi compatibles para los nodos de c
 
 
 
+[[h615c]]
 == H615C
 
 *Número de modelo (porción de familia):* H615C
 
 
 
+[[component-firmware-managed-by-a-compute-firmware-bundle]]
 === El firmware de los componentes está gestionado por un paquete de firmware de computación
 
 Durante el periodo de tiempo de 11.x, el software Element fue la única manera de liberar firmware. A partir de Element 12.0, se introdujo el concepto de *paquete de firmware de computación* y las actualizaciones de firmware eran ahora posibles a través de un paquete de firmware de computación de versión independiente.
@@ -81,6 +83,7 @@ NOTE: Un guión (*-*) en la tabla siguiente indica que el componente de hardware
 |===
 
 
+[[component-firmware-not-managed-by-a-compute-firmware-bundle]]
 === El firmware del componente no está gestionado por un paquete de firmware de computación
 
 Un paquete de firmware de computación no gestiona el siguiente firmware:
@@ -100,12 +103,14 @@ Un paquete de firmware de computación no gestiona el siguiente firmware:
 |===
 
 
+[[h610c]]
 == H610C
 
 *Número de modelo (porción de familia):* H610C
 
 
 
+[[component-firmware-managed-by-a-compute-firmware-bundle]]
 === El firmware de los componentes está gestionado por un paquete de firmware de computación
 
 Durante NetApp HCI 1.0 - NetApp HCI 1.7, NetApp HCI era la única manera de liberar firmware. A partir de NetApp HCI 1.8, se introdujo el concepto de *paquete de firmware de computación* y ahora es posible realizar actualizaciones de firmware con un paquete de firmware de computación de versión independiente.
@@ -166,6 +171,7 @@ NOTE: Un guión (*-*) en la tabla siguiente indica que el componente de hardware
 |===
 
 
+[[component-firmware-not-managed-by-a-compute-firmware-bundle]]
 === El firmware del componente no está gestionado por un paquete de firmware de computación
 
 Un paquete de firmware de computación no gestiona el siguiente firmware:
@@ -188,12 +194,14 @@ Un paquete de firmware de computación no gestiona el siguiente firmware:
 |===
 
 
+[[h410c]]
 == H410C
 
 *Número de modelo (porción de familia):* H410C
 
 
 
+[[component-firmware-managed-by-a-compute-firmware-bundle]]
 === El firmware de los componentes está gestionado por un paquete de firmware de computación
 
 Durante NetApp HCI 1.0 - NetApp HCI 1.7, NetApp HCI era la única manera de liberar firmware. A partir de NetApp HCI 1.8, se introdujo el concepto de *paquete de firmware de computación* y ahora es posible realizar actualizaciones de firmware con un paquete de firmware de computación de versión independiente.
@@ -254,6 +262,7 @@ NOTE: Un guión (*-*) en la tabla siguiente indica que el componente de hardware
 |===
 
 
+[[component-firmware-not-managed-by-a-compute-firmware-bundle]]
 === El firmware del componente no está gestionado por un paquete de firmware de computación
 
 Un paquete de firmware de computación no gestiona el siguiente firmware:
@@ -282,12 +291,14 @@ Un paquete de firmware de computación no gestiona el siguiente firmware:
 |===
 
 
+[[h300eh500eh700e]]
 == H300E/H500E/H700E
 
 *Número de modelo (porción de familia):* H300E/H500E/H700E
 
 
 
+[[component-firmware-managed-by-a-compute-firmware-bundle]]
 === El firmware de los componentes está gestionado por un paquete de firmware de computación
 
 Durante NetApp HCI 1.0 - NetApp HCI 1.7, NetApp HCI era la única manera de liberar firmware. A partir de NetApp HCI 1.8, se introdujo el concepto de *paquete de firmware de computación* y ahora es posible realizar actualizaciones de firmware con un paquete de firmware de computación de versión independiente.
@@ -348,6 +359,7 @@ NOTE: Un guión (*-*) en la tabla siguiente indica que el componente de hardware
 |===
 
 
+[[component-firmware-not-managed-by-a-compute-firmware-bundle]]
 === El firmware del componente no está gestionado por un paquete de firmware de computación
 
 Un paquete de firmware de computación no gestiona el siguiente firmware:

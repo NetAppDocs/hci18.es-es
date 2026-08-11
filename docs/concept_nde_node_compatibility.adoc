@@ -18,6 +18,7 @@ Al elegir nodos para su implementación, algunas restricciones se aplican a las 
 
 
 
+[[storage-node-compatibility]]
 == Compatibilidad del nodo de almacenamiento
 
 NetApp HCI admite nodos de almacenamiento y unidades con la funcionalidad de cifrado de unidades SED (unidad de cifrado automático) y FIPS 140-2-2. Al poner en marcha o ampliar NetApp HCI, se pueden combinar nodos con diferentes niveles de cifrado reportados, pero NetApp HCI solo admite una forma más básica de cifrado en esta situación. Por ejemplo, si combina un nodo de almacenamiento que es compatible con el cifrado FIPS con nodos que solo admiten el cifrado SED, el cifrado SED es compatible con esta configuración, pero el cifrado de unidad FIPS no lo es.
@@ -37,6 +38,7 @@ NOTE: Para puestas en marcha de clústeres de almacenamiento de dos nodos, los t
 
 
 
+[[compute-node-compatibility]]
 == Compatibilidad del nodo de computación
 
 Los nodos de computación deben cumplir con los siguientes requisitos para poder seleccionarse como inventario:
@@ -50,6 +52,7 @@ Los nodos de computación deben cumplir con los siguientes requisitos para poder
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]

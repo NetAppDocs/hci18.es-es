@@ -48,6 +48,7 @@ Los servicios de gestión se pueden actualizar con la interfaz de usuario de Hyb
 
 
 
+[[update-management-services-using-hybrid-cloud-control]]
 == Actualice los servicios de gestión con Hybrid Cloud Control
 
 Puede actualizar los servicios de gestión de NetApp mediante Hybrid Cloud Control de NetApp.
@@ -104,6 +105,7 @@ Después de comenzar la actualización, puede ver el estado de la actualización
 
 
 
+[[update-management-services-using-the-management-node-api]]
 == Actualice los servicios de gestión mediante la API del nodo de gestión
 
 Los usuarios deberían llevar a cabo, idealmente, actualizaciones de los servicios de gestión desde el control del cloud híbrido de NetApp. Sin embargo, puede cargar, extraer y poner en marcha manualmente una actualización de paquete de servicio para los servicios de gestión en el nodo de gestión mediante la API DE REST. Puede ejecutar cada comando desde la interfaz de usuario de la API de REST para el nodo de gestión.

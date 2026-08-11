@@ -18,6 +18,7 @@ Antes de montar en rack el hardware de NetApp HCI y realizar la instalación de 
 
 
 
+[[install-active-iq-config-advisor]]
 == Instale Active IQ Config Advisor
 
 Descargue e instale Active IQ Config Advisor en un PC que tenga acceso a las redes NetApp HCI.
@@ -43,6 +44,7 @@ Tras un breve retraso, la interfaz de usuario de Active IQ Config Advisor se abr
 
 
 
+[[use-active-iq-config-advisor]]
 == Utilice Active IQ Config Advisor
 
 Active IQ Config Advisor se ejecuta en una ventana del explorador, recopila información sobre la red y el entorno y genera un informe que puede utilizar para resolver cualquier problema de configuración o red que pudiera interferir en la implementación de NetApp HCI.

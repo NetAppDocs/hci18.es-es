@@ -19,6 +19,7 @@ Para los clústeres que ejecutan el software Element de la versión 11.3 o poste
 
 
 
+[[access-the-management-node-per-node-ui]]
 == Acceda a la interfaz de usuario de cada nodo de gestión
 
 Desde la interfaz de usuario por nodo, puede acceder a la configuración de red y clúster y utilizar las pruebas y las utilidades del sistema.
@@ -38,6 +39,7 @@ image::mnode_per_node_442_ui.png[Interfaz de usuario de nodo de gestión por nod
 
 
 
+[[access-the-management-node-rest-api-ui]]
 == Acceda a la interfaz de usuario de API DE REST del nodo de gestión
 
 Desde la interfaz de usuario de la API DE REST, puede acceder a un menú de API relacionadas con el servicio que controlan los servicios de gestión en el nodo de gestión.

@@ -18,6 +18,7 @@ Para acceder a los recursos de almacenamiento del sistema, tendrá que configura
 
 
 
+[[user-account-management]]
 == Gestionar cuentas de usuario
 
 Las cuentas de usuario se utilizan para controlar el acceso a los recursos de almacenamiento en una red basada en software de NetApp Element. Se requiere al menos una cuenta de usuario para poder crear un volumen.
@@ -40,6 +41,7 @@ Con el control del cloud híbrido de NetApp, puede crear y gestionar los siguien
 
 
 
+[[storage-cluster-administrator-accounts]]
 == Cuentas de administrador de clúster de almacenamiento
 
 Existen dos tipos de cuentas de administrador que se pueden encontrar en un clúster de almacenamiento donde se ejecuta el software NetApp Element:
@@ -57,6 +59,7 @@ Para obtener más información, consulte la https://docs.netapp.com/sfe-122/topi
 
 
 
+[[authoritative-user-accounts]]
 == Cuentas de usuario autoritativas
 
 Las cuentas de usuario con autoridad pueden autenticarse en cualquier activo de almacenamiento asociado con la instancia de Cloud Control de NetApp de los nodos y los clústeres. Con esta cuenta, puede gestionar volúmenes, cuentas, grupos de acceso y mucho más en todos los clústeres.
@@ -75,6 +78,7 @@ Aunque muchas de las funciones de control de cloud híbrido de NetApp funcionan 
 
 
 
+[[volume-accounts]]
 == Cuentas de volumen
 
 Las cuentas específicas de cada volumen solo son específicas del clúster de almacenamiento en el que se crearon. Estas cuentas permiten establecer permisos en volúmenes específicos de la red, pero no afectan fuera de dichos volúmenes.

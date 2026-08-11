@@ -56,6 +56,7 @@ Elija una de las siguientes opciones de actualización del firmware de almacenam
 
 
 
+[[use-netapp-hybrid-cloud-control-ui-to-upgrade-storage-firmware]]
 == Utilice la interfaz de usuario de control del cloud híbrido de NetApp para actualizar el firmware de almacenamiento
 
 Puede usar la interfaz de usuario de control de cloud híbrido de NetApp para actualizar el firmware de los nodos de almacenamiento del clúster.
@@ -114,6 +115,7 @@ Es posible descargar registros una vez completada la actualización.
 
 
 
+[[upgrade-status-changes]]
 === Cambios de estado de actualización
 
 Estos son los diferentes estados que muestra la columna *Estado de actualización* de la interfaz de usuario antes, durante y después del proceso de actualización:
@@ -145,6 +147,7 @@ Estos son los diferentes estados que muestra la columna *Estado de actualizació
 |===
 
 
+[[what-happens-if-an-upgrade-fails-using-netapp-hybrid-cloud-control]]
 == ¿Qué ocurre si se produce un error en una actualización mediante el control del cloud híbrido de NetApp
 
 Si se produce un error en una unidad o un nodo durante una actualización, la interfaz de usuario de Element mostrará errores en el clúster. El proceso de actualización no pasa al siguiente nodo y espera a que se resuelvan los errores del clúster. La barra de progreso de la interfaz de usuario de muestra que la actualización está esperando a que se resuelvan los errores del clúster. En esta fase, la selección de *Pausa* en la interfaz de usuario no funcionará, ya que la actualización espera a que el clúster esté en buen estado. Deberá ponerse en contacto con el servicio de soporte de NetApp para que le ayude con la investigación de un fallo.
@@ -161,6 +164,7 @@ CAUTION: Si se cancela la actualización del clúster mientras se actualiza un n
 
 
 
+[[use-netapp-hybrid-cloud-control-api-to-upgrade-storage-firmware]]
 == Utilice la API de control del cloud híbrido de NetApp para actualizar el firmware del almacenamiento
 
 Puede utilizar las API para actualizar los nodos de almacenamiento de un clúster a la versión más reciente del software Element. Puede utilizar una herramienta de automatización que prefiera para ejecutar las API. El flujo de trabajo de API que se documenta aquí, utiliza la interfaz de usuario de API DE REST disponible en el nodo de gestión como ejemplo.

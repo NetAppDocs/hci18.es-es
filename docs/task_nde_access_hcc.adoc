@@ -39,8 +39,8 @@ NOTE: Si ha iniciado sesión con permisos insuficientes, verá un mensaje "no se
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 * http://docs.netapp.com/sfe-122/index.jsp["Centro de documentación de SolidFire y el software Element"^]
 

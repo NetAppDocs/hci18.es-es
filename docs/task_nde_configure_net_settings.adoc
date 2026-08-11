@@ -118,9 +118,9 @@ Esto rellena la página *Network Settings* con los ajustes que ingresó en el fo
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 * http://docs.netapp.com/sfe-122/index.jsp["Centro de documentación de SolidFire y el software Element"^]
 

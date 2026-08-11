@@ -32,6 +32,7 @@ A partir de Element 12,2, puede usar link:concept_hci_storage_maintenance_mode.h
 
 
 
+[[add-a-storage-cluster]]
 == Añada un clúster de almacenamiento
 
 Puede añadir un clúster de almacenamiento al inventario de activos del nodo de gestión con Hybrid Cloud Control de NetApp. Esto permite gestionar y supervisar el clúster con la interfaz de usuario de HCC.
@@ -61,6 +62,7 @@ NOTE: Después de añadir el clúster de almacenamiento, el inventario de clúst
 
 
 
+[[confirm-storage-cluster-status]]
 == Confirmar el estado del clúster de almacenamiento
 
 Puede supervisar el estado de conexión de activos de clústeres de almacenamiento mediante la interfaz de usuario de control de cloud híbrido de NetApp.
@@ -74,6 +76,7 @@ Puede supervisar el estado de conexión de activos de clústeres de almacenamien
 
 
 
+[[edit-storage-cluster-credentials]]
 == Editar credenciales del clúster de almacenamiento
 
 Puede editar el nombre de usuario y la contraseña del administrador del clúster de almacenamiento mediante la interfaz de usuario de NetApp Hybrid Cloud Control.
@@ -89,6 +92,7 @@ Puede editar el nombre de usuario y la contraseña del administrador del clúste
 
 
 
+[[remove-a-storage-cluster]]
 == Quite un clúster de almacenamiento de
 
 Al quitar un clúster de almacenamiento de NetApp Hybrid Cloud Control, se quita el clúster del inventario del nodo de gestión. Una vez que se quita un clúster de almacenamiento, el clúster ya no puede gestionarse mediante HCC y solo es posible acceder a él; para ello, solo debe navegar directamente a su dirección IP de gestión.
@@ -110,6 +114,7 @@ CAUTION: Si selecciona *Sí* a continuación, se eliminará el clúster de la in
 
 
 
+[[enable-and-disable-maintenance-mode]]
 == Habilite y deshabilite el modo de mantenimiento
 
 Esta link:concept_hci_storage_maintenance_mode.html["modo de mantenimiento"] función le brinda la capacidad <<enable_main_mode,habilite>>y <<disable_main_mode,desactivar>>el modo de mantenimiento para un nodo de clúster de almacenamiento.
@@ -123,6 +128,7 @@ Esta link:concept_hci_storage_maintenance_mode.html["modo de mantenimiento"] fun
 
 
 
+[[enablemainmodeenable-maintenance-mode]]
 === [[enable_main_mode]]Habilitar el modo de mantenimiento
 
 Puede utilizar el siguiente procedimiento para habilitar el modo de mantenimiento para un nodo de clúster de almacenamiento.
@@ -168,6 +174,7 @@ Una vez completada *activación del modo de mantenimiento*, la columna *Estado d
 
 
 
+[[disablemainmodedisable-maintenance-mode]]
 === [[disable_main_mode]]desactive el modo de mantenimiento
 
 Una vez que un nodo se ha colocado correctamente en modo de mantenimiento, la acción *Desactivar modo de mantenimiento* está disponible para este nodo. Las acciones en los otros nodos no están disponibles hasta que el modo de mantenimiento se deshabilita correctamente en el nodo que experimenta mantenimiento.
@@ -188,6 +195,7 @@ NOTE: Cuando un nodo se encuentra en modo de mantenimiento, no acepta datos nuev
 
 
 
+[[troubleshoot]]
 === Solucionar problemas
 
 Si se producen errores cuando se habilita o se deshabilita el modo de mantenimiento, se muestra un error de banner en la parte superior de la tabla Nodes. Para obtener más información sobre el error, puede seleccionar el enlace *Mostrar detalles* que se proporciona en el banner para mostrar cuáles son las devoluciones de la API.

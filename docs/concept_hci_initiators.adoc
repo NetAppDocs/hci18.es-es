@@ -18,6 +18,7 @@ Los iniciadores permiten que los clientes externos accedan a los volúmenes de u
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * link:task_hcc_manage_initiators.html["Gestione los iniciadores"]

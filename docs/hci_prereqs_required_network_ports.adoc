@@ -223,6 +223,7 @@ En la tabla se emplean las siguientes abreviaturas:
 |===
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]

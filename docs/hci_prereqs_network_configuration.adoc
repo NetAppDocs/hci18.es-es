@@ -18,6 +18,7 @@ NetApp HCI puede utilizar varias configuraciones de VLAN y cableado de red disti
 
 
 
+[[required-network-segments]]
 == Segmentos de red requeridos
 
 NetApp HCI requiere tres segmentos de red como mínimo: Tráfico de gestión, almacenamiento y virtualización (que incluye máquinas virtuales y tráfico de vMotion de VMware). También es posible separar el tráfico de la máquina virtual y de vMotion. Estos segmentos de red, en general, existen como VLAN separadas en la infraestructura de red de NetApp HCI.
@@ -48,6 +49,7 @@ NOTE: Las redes de máquina virtual se configuran con vCenter. La red de máquin
 
 
 
+[[network-configuration-and-cabling-options]]
 == Opciones de configuración y cableado de red
 
 Se puede usar una configuración de red de dos cables para los nodos de computación H410C, lo cual simplifica el enrutamiento de los cables. Esta configuración utiliza dos interfaces SFP+/SFP28 más una interfaz RJ45 opcional para la comunicación IPMI. Estos nodos también pueden usar una configuración de seis cables con dos interfaces RJ45 y cuatro SFP28/SFP+.

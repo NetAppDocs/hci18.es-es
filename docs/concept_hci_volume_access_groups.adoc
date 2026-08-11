@@ -28,6 +28,7 @@ Los grupos de acceso de volúmenes presentan los siguientes límites:
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * link:task_hcc_manage_vol_access_groups.html["Gestione los grupos de acceso de volúmenes"]

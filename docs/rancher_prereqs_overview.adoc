@@ -21,6 +21,7 @@ NOTE: Si se implementa accidentalmente Rancher en NetApp HCI con información in
 
 
 
+[[node-requirements]]
 == Requisitos de nodo
 
 * Compruebe que su sistema NetApp HCI tenga al menos tres nodos de computación; esto es necesario para obtener una resiliencia completa. Rancher en NetApp HCI no es compatible con configuraciones de solo almacenamiento.
@@ -30,6 +31,7 @@ NOTE: Si se implementa accidentalmente Rancher en NetApp HCI con información in
 
 
 
+[[node-details]]
 === Detalles del nodo
 
 Rancher en NetApp HCI pone en marcha un clúster de gestión de tres nodos.
@@ -45,6 +47,7 @@ Todos los nodos tienen las siguientes características:
 |===
 
 
+[[network-requirements]]
 == Requisitos de red
 
 * Compruebe que la red que pretende implementar el Rancher en el clúster de gestión de NetApp HCI tiene una ruta hacia la red de gestión de nodos de gestión.
@@ -68,6 +71,7 @@ Todos los nodos tienen las siguientes características:
 
 
 
+[[vmware-vsphere-requirements]]
 == Requisitos de vSphere de VMware
 
 * Compruebe que la instancia de VMware vSphere que utiliza sea la versión 6.5, 6.7 o 7.0.
@@ -76,6 +80,7 @@ Todos los nodos tienen las siguientes características:
 
 
 
+[[deployment-considerations]]
 == Consideraciones sobre la implementación
 
 Quizás desee revisar las siguientes consideraciones:
@@ -94,6 +99,7 @@ TIP: Rancher en NetApp HCI no es resiliente a los fallos de nodo a menos que con
 
 
 
+[[types-of-deployments]]
 === Tipos de implementaciones
 
 Puede implementar Rancher en NetApp HCI de las siguientes formas:
@@ -118,6 +124,7 @@ Se recomienda utilizar el equilibrio de carga L4 o la configuración DNS round-r
 
 
 
+[[rancher-fqdn]]
 === Rancher FQDN
 
 La instalación requiere la asignación de una dirección URL de Rancher, que incluye el nombre de dominio completo (FQDN) del host donde se servirá la interfaz de usuario de Rancher una vez finalizada la instalación.
@@ -128,12 +135,14 @@ Las puestas en marcha de producción requieren un FQDN configurado que equilibra
 
 
 
+[[required-ports]]
 == Puertos necesarios
 
 Asegúrese de que la lista de puertos en la sección “Puertos para nodos de Rancher Server en RKE” de la sección *Nodos Rancher* del oficial https://rancher.com/docs/rancher/v2.x/en/installation/requirements/ports/#ports-for-rancher-server-nodes-on-rke["Documentación del rancher"^] estén abiertos en la configuración de su firewall hacia y desde los nodos que ejecutan el servidor Rancher.
 
 
 
+[[required-urls]]
 == URL requeridas
 
 Debe accederse a las siguientes direcciones URL desde los hosts en los que reside el plano de control Rancher:

@@ -80,6 +80,7 @@ Elija la opción que sea relevante para su situación de actualización:
 
 
 
+[[use-netapp-hybrid-cloud-control-ui-to-upgrade-a-compute-node]]
 == Utilice la interfaz de usuario de Cloud Control de NetApp para actualizar un nodo de computación
 
 A partir de los servicios de gestión 2.14, es posible actualizar un nodo de computación mediante la interfaz de usuario de control de cloud híbrido de NetApp. En la lista de nodos, debe seleccionar el nodo que desea actualizar. La ficha *versiones actuales* muestra las versiones actuales del firmware y la ficha *versiones propuestas* muestra las versiones de actualización disponibles, si las hay.
@@ -152,6 +153,7 @@ TIP: Si se produce un fallo durante la actualización, el control de cloud híbr
 
 
 
+[[upgrade-status-changes]]
 === Cambios de estado de actualización
 
 A continuación, se muestran los distintos estados que la interfaz de usuario muestra antes, durante y después del proceso de actualización:
@@ -180,6 +182,7 @@ A continuación, se muestran los distintos estados que la interfaz de usuario mu
 |===
 
 
+[[use-netapp-hybrid-cloud-control-api-to-upgrade-a-compute-node]]
 == Utilice la API de control de cloud híbrido de NetApp para actualizar un nodo de computación
 
 Puede utilizar las API para actualizar cada nodo de computación en un clúster a la versión de firmware más reciente. Puede utilizar una herramienta de automatización que prefiera para ejecutar las API. El flujo de trabajo de API que se documenta aquí, utiliza la interfaz de usuario de API DE REST disponible en el nodo de gestión como ejemplo.
@@ -397,6 +400,8 @@ https://<ManagementNodeIP>/hardware/2/
 
 
 
+[[use-a-usb-drive-imaged-with-the-latest-compute-firmware-bundle]]
+[[manual_method_USB]]
 == Utilice una unidad USB expuesta con el paquete de firmware de computación más reciente
 
 Puede insertar una unidad USB con el paquete de firmware de computación más reciente descargado en un puerto USB del nodo de computación. Como alternativa al uso del método de unidad de memoria USB descrito en este procedimiento, puede montar el paquete de firmware de computación en el nodo de computación utilizando la opción *CD/DVD* virtual en la consola virtual en la interfaz del controlador de administración de la placa base (BMC). El método BMC tarda considerablemente más que el método USB de la unidad de memoria USB. Asegúrese de que su estación de trabajo o servidor tiene el ancho de banda de red necesario y de que la sesión del explorador con el BMC no agota el tiempo de espera.
@@ -430,6 +435,8 @@ Una vez que se completa la actualización del firmware y el nodo se reinicia, es
 
 
 
+[[use-the-baseboard-management-controller-bmc-user-interface-ui]]
+[[manual_method_BMC]]
 == Usar la interfaz de usuario (UI) de la controladora de gestión de placa base (BMC)
 
 Debe realizar los pasos secuenciales para cargar el paquete de firmware de computación y reiniciar el nodo en el bundle de firmware de computación a fin de garantizar que la actualización se realice correctamente. El paquete de firmware de computación debe estar ubicado en el sistema o la máquina virtual (VM) donde se aloja el explorador web. Verifique que se haya descargado el bundle de firmware de computación antes de iniciar el proceso.
@@ -446,6 +453,7 @@ NOTE: La actualización a través de la interfaz de usuario de BMC tarda entre 2
 
 
 
+[[upgrade-firmware-on-h410c-and-h300eh500eh700e-nodes]]
 === Actualice el firmware en los nodos H410C y H300E/H500E/H700E
 
 Si su nodo forma parte de un clúster, debe colocar el nodo en modo de mantenimiento antes de la actualización y sacarlo del modo de mantenimiento después de la actualización.
@@ -510,6 +518,7 @@ NOTE: La versión del BIOS no mostrará la versión actualizada hasta que el nod
 
 
 
+[[upgrade-firmware-on-h610ch615c-nodes]]
 === Actualice el firmware en los nodos H610C/H615C
 
 Los pasos varían en función de si el nodo es independiente o forma parte de un clúster. El procedimiento puede tardar aproximadamente 25 minutos e incluye apagar el nodo, cargar el bundle de firmware de computación, actualizar los dispositivos y volver a encender el nodo después de la actualización.
@@ -561,6 +570,7 @@ CAUTION: Durante el proceso de encendido, durante aproximadamente cinco minutos,
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]

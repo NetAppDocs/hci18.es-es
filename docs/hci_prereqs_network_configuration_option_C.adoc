@@ -18,6 +18,7 @@ NetApp HCI puede utilizar varias configuraciones de VLAN y cableado de red disti
 
 
 
+[[configuration-option-c-six-cables-for-compute-nodes-with-native-vlans]]
 == Opción de configuración C: Seis cables para nodos de computación con VLAN nativas
 
 Es posible implementar NetApp HCI sin utilizar VLAN etiquetadas para el tráfico de almacenamiento y virtualización y, en su lugar, basarse en la configuración del switch para separar los segmentos de red. Se puede usar esta configuración con switches estándar de vSphere o switches distribuidos de vSphere (que requieren licencia de VMware vSphere Enterprise Plus).
@@ -41,6 +42,7 @@ image::H610S_back_panel_ports.png[Puertos de red del nodo de almacenamiento H610
 
 
 
+[[vlan-configuration-for-h410c-h410s-and-h610s-nodes]]
 === Configuración de VLAN para nodos H410C, H410S y H610S
 
 Esta opción de topología utiliza la siguiente configuración de VLAN en nodos H410C, H410S y H610S:
@@ -72,6 +74,7 @@ image::hci_networking_config_scenario_2.png[Opción de configuración C Image de
 
 
 
+[[example-switch-commands]]
 === Comandos del switch de ejemplo
 
 Es posible usar los siguientes comandos del switch de ejemplo a fin de configurar los puertos del switch utilizados para los nodos de NetApp HCI. Estos comandos se basan en una configuración de Cisco, pero podrían requerir cambios mínimos para aplicarse a los switches Mellanox. Consulte en la documentación de su switch los comandos específicos que necesita para implementar esta configuración.

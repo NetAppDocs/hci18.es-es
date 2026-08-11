@@ -24,6 +24,7 @@ Existen varias formas de supervisar el servidor Rancher, los clústeres de admin
 
 
 
+[[monitor-rancher-using-the-netapp-hybrid-cloud-control]]
 == Supervise el rancher mediante el Control para el cloud híbrido de NetApp
 
 Con el control de cloud híbrido de NetApp, puede ver la URL del Rancher y el estado de los clústeres del servidor Rancher. También puede supervisar los nodos en los que se está ejecutando Rancher.
@@ -38,6 +39,7 @@ image::hcc_configure.png[Página Configuración de rancher]
 
 
 
+[[monitor-rancher-using-the-rancher-ui]]
 == Supervise Rancher mediante la IU de Rancher
 
 Con la interfaz de usuario de Rancher, puede ver información sobre Rancher en los clústeres de gestión y usuarios de NetApp HCI.
@@ -51,6 +53,7 @@ TIP: En la IU de Rancher, los clústeres de gestión se denominan "clústeres lo
 
 
 
+[[monitor-rancher-using-netapp-active-iq]]
 == Supervisión de Rancher mediante Active IQ de NetApp
 
 Mediante Active IQ de NetApp, puede ver la telemetría de Rancher, como información de instalación, nodos, clústeres, estado, información de espacio de nombres, y sigue.
@@ -61,6 +64,7 @@ Mediante Active IQ de NetApp, puede ver la telemetría de Rancher, como informac
 
 
 
+[[monitor-rancher-using-vcenter-server]]
 == Supervise Rancher mediante vCenter Server
 
 Con vCenter Server, puede supervisar las máquinas virtuales Rancher.

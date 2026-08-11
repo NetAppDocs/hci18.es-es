@@ -26,6 +26,7 @@ Puede gestionar volúmenes en NetApp Hybrid Cloud Control de las siguientes form
 
 
 
+[[create-a-volume]]
 == Cree un volumen
 
 Puede crear un volumen de almacenamiento con NetApp Hybrid Cloud Control.
@@ -67,6 +68,7 @@ Los volúmenes que tengan un valor de IOPS máximo o de ráfaga superior a 20 20
 
 
 
+[[apply-a-qos-policy-to-a-volume]]
 == Aplique una política de calidad de servicio en un volumen
 
 Puede aplicar una política de calidad de servicio a un volumen de almacenamiento existente mediante el control de cloud híbrido de NetApp.
@@ -95,6 +97,7 @@ TIP: Al cambiar los valores de IOPS, aumente de diez en diez o de cien en cien. 
 
 
 
+[[edit-a-volume]]
 == Editar un volumen
 
 Con Hybrid Cloud Control de NetApp, es posible editar atributos de volúmenes como los valores de calidad de servicio, el tamaño de los volúmenes y la unidad de medida mediante la cual se calculan los valores de bytes. También se puede modificar el acceso de la cuenta para el uso de la replicación o para restringir el acceso al volumen.
@@ -164,6 +167,7 @@ TIP: Cuando cambie los valores de IOPS, debe incrementar sus diez o cien. Los va
 
 
 
+[[clone-volumes]]
 == Clonar volúmenes
 
 Es posible crear un clon de un solo volumen de almacenamiento o clonar un grupo de volúmenes para hacer una copia de los datos en un momento específico. Cuando se clona un volumen, el sistema crea una copia de Snapshot del volumen y, a continuación, crea una copia de los datos que se indican en la copia de Snapshot.
@@ -234,6 +238,7 @@ NOTE: El tiempo para completar una operación de clonación se ve afectado por e
 
 
 
+[[delete-a-volume]]
 == Eliminar un volumen
 
 Es posible eliminar uno o varios volúmenes de un clúster de almacenamiento de Element.
@@ -262,6 +267,7 @@ IMPORTANT: Los volúmenes persistentes asociados con servicios de gestión se cr
 
 
 
+[[restore-a-deleted-volume]]
 == Restaurar un volumen eliminado
 
 Después de eliminar un volumen de almacenamiento, es posible restaurarlo si lo hace antes de ocho horas después de la eliminación.
@@ -279,6 +285,7 @@ El sistema no purga de manera inmediata volúmenes eliminados; estos siguen disp
 
 
 
+[[purge-a-deleted-volume]]
 == Purgar un volumen eliminado
 
 Una vez que se eliminan los volúmenes de almacenamiento, siguen disponibles durante ocho horas aproximadamente. Después de ocho horas, se purgan automáticamente y ya no están disponibles. Si no desea esperar las ocho horas, puede eliminarse

@@ -54,11 +54,12 @@ A continuación se indican algunas tareas adicionales que puede que deba realiza
 
 * link:task_hci_removewn.html["Quite nodos de testigos para liberar recursos informáticos"]
 * <<Cambie la contraseña si ha recibido un nodo de repuesto con una contraseña BMC no estándar>>
-* <<Actualice el firmware del BMC en el nodo>>
+* link:task_hcc_upgrade_compute_node_firmware.html["Actualice el firmware del BMC en el nodo"]
 
 
 
 
+[[prepare-to-replace-the-compute-node]]
 == Prepare para sustituir el nodo de computación
 
 Debe migrar las máquinas virtuales (VM) alojadas en el nodo a un host disponible, y quitar el nodo con errores del clúster. Debería obtener detalles sobre el nodo con errores, como el número de serie y la información de red.
@@ -99,6 +100,7 @@ NOTE: Consulte la documentación de VMware para conocer los pasos de migración.
 
 
 
+[[replace-the-compute-node-in-the-chassis]]
 == Reemplace el nodo de computación en el chasis
 
 Después de quitar el nodo con errores del clúster, puede quitar el nodo del chasis e instalar el nodo de reemplazo.
@@ -146,6 +148,7 @@ TIP: Asegúrese de que el nodo de reemplazo esté cableado de la misma manera qu
 
 
 
+[[remove-the-compute-node-asset-in-netapp-hci-1-7-and-later]]
 == Quite el activo del nodo de computación en NetApp HCI 1.7 y versiones posteriores
 
 En NetApp HCI 1.7 y versiones posteriores, después de reemplazar físicamente el nodo, debe quitar el activo del nodo de computación mediante las API del nodo de gestión. Para utilizar API DE REST, su clúster de almacenamiento debe ejecutar el software NetApp Element 11.5 o una versión posterior y debe haber implementado un nodo de gestión que ejecute la versión 11.5 o posterior.
@@ -176,12 +179,14 @@ NOTE: Si obtiene el `Auth Error TypeError: Failed to fetch` mensaje de error des
 
 
 
+[[add-the-compute-node-to-the-cluster]]
 == Añada el nodo de computación al clúster
 
 Debe volver a añadir el nodo de computación al clúster. Los pasos varían en función de la versión de NetApp HCI que esté ejecutando.
 
 
 
+[[netapp-hci-1-6p1-and-later]]
 === NetApp HCI 1.6P1 y posteriores
 
 Puede utilizar el control del cloud híbrido de NetApp solo si se ejecuta su instalación de NetApp HCI en la versión 1.6P1 o posterior.
@@ -271,6 +276,7 @@ TIP: Para algunos nodos de computación, es posible que deba habilitar EVC en el
 
 
 
+[[netapp-hci-1-4-p2-1-4-and-1-3]]
 === NetApp HCI 1.4 P2, 1.4 y 1.3
 
 Si la instalación de NetApp HCI ejecuta la versión 1.4P2, 1.4 o 1.3, puede usar el motor de implementación de NetApp para añadir el nodo al clúster.
@@ -349,6 +355,7 @@ TIP: Para algunos nodos de computación, es posible que deba habilitar EVC en el
 
 
 
+[[netapp-hci-1-2-1-1-and-1-0]]
 === NetApp HCI 1.2, 1.1 y 1.0
 
 Después de reemplazar físicamente el nodo, debería volver a añadirlo al clúster VMware ESXi y realizar varias configuraciones de red para poder usar todas las funcionalidades disponibles.
@@ -590,6 +597,7 @@ image::rescan.gif[Muestra el icono de nueva búsqueda de los adaptadores de alma
 
 
 
+[[redeploy-witness-nodes-for-two-and-three-node-storage-clusters]]
 == Vuelva a poner en marcha nodos de testigos para clústeres de almacenamiento de dos y tres nodos
 
 Después de reemplazar físicamente el nodo de computación con fallos, debe volver a poner en marcha la máquina virtual del nodo de testimonio de NetApp HCI si el nodo de computación con errores alojaba el nodo de testigo. Estas instrucciones solo se aplican a nodos de computación que forman parte de una instalación de NetApp HCI con clústeres de almacenamiento de dos o tres nodos.
@@ -706,6 +714,7 @@ NOTE: Si no se establece MTU antes de agregar el nodo de testimonio al clúster,
 
 
 
+[[change-the-password-if-you-received-a-replacement-node-with-a-non-standard-bmc-password]]
 == Cambie la contraseña si ha recibido un nodo de repuesto con una contraseña BMC no estándar
 
 Algunos nodos de repuesto pueden enviarse con contraseñas no estándar para la IU del controlador de gestión en placa base (BMC). Si recibe un nodo de sustitución con una contraseña BMC no estándar, debe cambiar la contraseña a la predeterminada, ADMIN.
@@ -728,6 +737,7 @@ image::bmc pw sticker.png[Muestra la parte posterior del nodo con la etiqueta ad
 
 
 
+[[upgrade-the-bmc-firmware-on-your-node]]
 == Actualice el firmware del BMC en el nodo
 
 Después de sustituir el nodo de computación, es posible que tenga que actualizar la versión de firmware. Puede descargar el archivo de firmware más reciente desde el menú desplegable de la link:https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["Sitio de soporte de NetApp (se requiere inicio de sesión)"^].
@@ -754,8 +764,8 @@ image::h410c-bmc3.png[Muestra la pantalla de actualización del firmware en la i
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 * http://docs.netapp.com/sfe-122/index.jsp["Centro de documentación de SolidFire y el software Element"^]
 

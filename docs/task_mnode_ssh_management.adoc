@@ -43,6 +43,7 @@ Puede realizar cualquiera de las siguientes tareas después de ustedlink:task_mn
 
 
 
+[[disable-or-enable-the-ssh-capability-on-the-management-node-using-netapp-hybrid-cloud-control-ui]]
 == Deshabilite o habilite la funcionalidad SSH en el nodo de gestión mediante la IU de control de cloud híbrido de NetApp
 
 Es posible deshabilitar o volver a habilitar la funcionalidad SSH en el nodo de gestión. La funcionalidad de SSH que proporciona link:task_mnode_enable_remote_support_connections.html["Acceso a la sesión del túnel de soporte remoto (RST) de NetApp Support"]está deshabilitada de manera predeterminada en los nodos de gestión que ejecutan los servicios de gestión 2,18 o posterior. Al deshabilitar SSH, no se finalizan ni desconectan las sesiones de cliente SSH existentes en el nodo de gestión. Si deshabilita SSH y opta por volver a habilitarla más adelante, puede hacerlo mediante la interfaz de usuario de control de cloud híbrido de NetApp.
@@ -58,6 +59,7 @@ NOTE: Para habilitar o deshabilitar el acceso de soporte mediante SSH para un cl
 
 
 
+[[disable-or-enable-the-ssh-capability-on-the-management-node-using-apis]]
 == Deshabilite o habilite la funcionalidad SSH en el nodo de gestión mediante las API de
 
 Es posible deshabilitar o volver a habilitar la funcionalidad SSH en el nodo de gestión. De forma predeterminada, la funcionalidad SSH que proporciona link:task_mnode_enable_remote_support_connections.html["Acceso a la sesión del túnel de soporte remoto (RST) de NetApp Support"]está habilitada en el nodo de gestión. Al deshabilitar SSH, no se finalizan ni desconectan las sesiones de cliente SSH existentes en el nodo de gestión. Si deshabilita SSH y opta por volver a habilitarla más adelante, puede hacerlo mediante la misma API.
@@ -104,6 +106,7 @@ https://<ManagementNodeIP>/mnode/
 
 
 
+[[determine-status-of-the-ssh-capability-on-the-management-node-using-apis]]
 == Determine el estado de la capacidad SSH en el nodo de gestión mediante las API de
 
 Puede determinar si la capacidad SSH está habilitada o no en el nodo de gestión mediante una API de servicio de nodo de gestión. SSH está habilitado de forma predeterminada en el nodo de gestión.

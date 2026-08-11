@@ -88,8 +88,8 @@ TIP: Los LED de la fuente de alimentación se encienden cuando la unidad de fuen
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 * http://docs.netapp.com/sfe-122/index.jsp["Centro de documentación de SolidFire y el software Element"^]
 

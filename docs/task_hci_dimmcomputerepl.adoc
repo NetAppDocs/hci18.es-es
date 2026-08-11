@@ -17,7 +17,7 @@ keywords: netapp, hci, dimm, compute nodes
 Puede sustituir un módulo de memoria en línea doble (DIMM) defectuoso en los nodos de computación NetApp HCI en lugar de sustituir el nodo completo.
 
 .Lo que necesitará
-* Antes de iniciar este procedimiento, debe haberse puesto en contacto con el servicio de soporte de NetApp y haber recibido una pieza de repuesto. Durante la instalación de la sustitución, el soporte estará implicado. Si aún no lo ha hecho, póngase en contacto con https://www.netapp.com/us/contact-us/support.aspx["Soporte técnico"^].
+* Antes de iniciar este procedimiento, debes haberte puesto en contacto con el soporte de NetApp y haber recibido una pieza de reemplazo. El soporte estará involucrado durante la instalación de la pieza de reemplazo. Si aún no lo has hecho, contacta con https://www.netapp.com/company/contact-us/support/["Soporte técnico"^].
 * Ha planificado experimentar tiempos de inactividad del sistema, ya que necesita desconectar o apagar el nodo y arrancar el nodo en el modo a prueba de fallos de NetApp para acceder a la interfaz de usuario del terminal (TUI).
 
 
@@ -45,6 +45,7 @@ Estos son los pasos para sustituir DIMM en los nodos de computación:
 
 
 
+[[prepare-to-replace-the-dimm]]
 == Prepárese para sustituir el DIMM
 
 Cuando se producen problemas con el DIMM, VMware ESXi muestra alertas, como `Memory Configuration Error` , , `Memory Uncorrectable ECC` `Memory Transition to Critical` y `Memory Critical Overtemperature`. Incluso si las alertas desaparecen al cabo de un tiempo, el problema del hardware puede persistir. Debe diagnosticar y tratar el DIMM defectuoso. Puede obtener información sobre el DIMM defectuoso desde vCenter Server. Si necesita más información de la que está disponible en vCenter Server, debe ejecutar la comprobación del hardware en la TUI.
@@ -149,6 +150,7 @@ Size: 32 GB`
 
 
 
+[[replace-the-dimm-from-the-chassis]]
 == Sustituya el DIMM del chasis
 
 Antes de quitar y reemplazar físicamente el DIMM defectuoso en el chasis, asegúrese de haber realizado todo el link:task_hci_dimmcomputerepl.html#prepare-to-replace-the-dimm["pasos preparatorios"].
@@ -273,8 +275,8 @@ TIP: Después del procedimiento de reemplazo de DIMM, puede borrar las advertenc
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 * http://docs.netapp.com/sfe-122/index.jsp["Centro de documentación de SolidFire y el software Element"^]
 

@@ -25,6 +25,7 @@ Seleccione una de las siguientes opciones:
 
 
 
+[[use-netapp-hybrid-cloud-control-to-collect-logs]]
 == Utilice el control del cloud híbrido de NetApp para recopilar registros
 
 Puede acceder al área de recogida de registros desde la consola de Cloud Control híbrido de NetApp.
@@ -66,6 +67,7 @@ Este paquete de registro está en un formato de archivo .tgz comprimido.
 
 
 
+[[use-the-rest-api-to-collect-logs]]
 == Use la API DE REST para recoger registros
 
 Es posible usar la API DE REST para recoger registros de NetApp HCI o Element.

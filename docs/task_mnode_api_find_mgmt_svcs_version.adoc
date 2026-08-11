@@ -23,6 +23,7 @@ Puede verificar los números de versión del sistema operativo del nodo de gesti
 
 
 
+[[api-commands]]
 == Comandos de la API
 
 * Obtenga información de la versión acerca del sistema operativo del nodo de gestión, el paquete de servicios de gestión y el servicio API del nodo de gestión (mnode-api) que se ejecutan en el nodo de gestión:
@@ -45,6 +46,7 @@ NOTE: Usted puede encontrar el portador `${TOKEN}` utilizado por el comando API 
 
 
 
+[[rest-api-ui-steps]]
 == PASOS PARA LA INTERFAZ DE USUARIO DE LA API DE REST
 
 . Acceda a la interfaz de usuario de API de REST del servicio. Para ello, introduzca la dirección IP del nodo de gestión seguida `/mnode/` de :

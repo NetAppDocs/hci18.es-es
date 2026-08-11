@@ -27,6 +27,7 @@ TIP: Consulte la link:../media/hseries-isi.pdf["cartel"^] para obtener una repre
 
 
 
+[[workflow-diagrams]]
 == Diagramas de flujo de trabajo
 
 Los diagramas de flujo de trabajo aquí proporcionan una descripción general de alto nivel de los pasos de la instalación. Los pasos varían ligeramente según el modelo de la serie H.
@@ -38,12 +39,14 @@ Los diagramas de flujo de trabajo aquí proporcionan una descripción general de
 
 
 
+[[h410c-and-h410s]]
 === H410C y H410S
 
 image::workflow_h410c.PNG[Flujo de trabajo de instalación de H410C y H410S]
 
 
 
+[[h610c-and-h615c]]
 === H610C y H615C
 
 
@@ -53,6 +56,7 @@ image::workflow_h610c.png[Flujo de trabajo de instalación de H610C y H615C]
 
 
 
+[[h610s]]
 === H610S
 
 
@@ -62,6 +66,7 @@ image::workflow_h610s.png[Flujo de trabajo de instalación H610S]
 
 
 
+[[prepare-for-installation]]
 == Preparación de la instalación
 
 Durante la preparación para la instalación, realice el inventario del hardware que recibió y póngase en contacto con el soporte de NetApp en caso de que falte algún artículo.
@@ -98,6 +103,7 @@ CAUTION: Durante la instalación de la tornillería, asegúrese de retirar todo 
 
 
 
+[[install-the-rails]]
 == Instale los rieles
 
 El orden de hardware que se le envió incluye un conjunto de rieles deslizantes. Necesitará un destornillador para completar la instalación del riel. Los pasos de instalación varían ligeramente para cada modelo de nodo.
@@ -112,6 +118,7 @@ TIP: Instale la tornillería desde la parte inferior del bastidor hasta la parte
 
 
 
+[[h410c-and-h410s]]
 === H410C y H410S
 
 Los nodos H410C y H410S se instalan en chasis 2U de cuatro nodos H-Series, que se envía con dos conjuntos de adaptadores. Si desea instalar el chasis en un rack con orificios redondos, utilice los adaptadores adecuados para un rack con orificios redondos. Los rieles para nodos H410C y H410S encajan en un rack de entre 29 pulgadas y 33.5 pulgadas de profundidad. Cuando el riel está totalmente contrapuesto, tiene 28 pulgadas de largo, y las secciones delantera y trasera del riel se mantienen Unidas sólo con un tornillo.
@@ -134,6 +141,7 @@ image::h410c_rail.gif[Instalación de rieles para 2U]
 
 
 
+[[h610c]]
 === H610C
 
 A continuación encontrará una ilustración de la instalación de rieles para un nodo de computación H61OC:
@@ -142,6 +150,7 @@ image::h610c_rail.png[Instalación del raíl para el nodo de computación H610C.
 
 
 
+[[h610s-and-h615c]]
 === H610S y H615C
 
 A continuación, se muestra una ilustración para la instalación de rieles para un nodo de almacenamiento H610S o un nodo de computación H615C:
@@ -153,6 +162,7 @@ TIP: Hay rieles izquierdo y derecho en H610S y H615C. Coloque el orificio del to
 
 
 
+[[install-the-nodechassis]]
 == Instale el nodo/chasis
 
 Se instala el nodo de computación H410C y el nodo de almacenamiento H410S en un chasis 2U de cuatro nodos. Para H610C, H615C y H610S, instale el chasis/nodo directamente en los rieles del rack.
@@ -170,6 +180,7 @@ CAUTION: Retire todo el material de embalaje y el embalaje de la unidad. Esto ev
 
 
 
+[[h410c-and-h410s-nodes]]
 === Los nodos H410C y H410S
 
 .Pasos
@@ -185,6 +196,7 @@ image::h410s_drives.png[Vista frontal del nodo de almacenamiento H410S con las u
 
 
 
+[[h610c-nodechassis]]
 === Nodo/chasis H610C
 
 En el caso de H610C, los términos "nodo" y "chasis" se utilizan indistintamente porque el nodo y el chasis no son componentes separados, a diferencia de lo que sucede en el chasis de 2U de cuatro nodos.
@@ -195,6 +207,7 @@ image::h610c_chassis.png[Muestra el nodo/chasis H610C que se está instalando en
 
 
 
+[[h610s-and-h615c-nodechassis]]
 === H610S y H615C, nodo/chasis
 
 En el caso H615C y H610S, los términos "nodo" y "chasis" se utilizan indistintamente porque los componentes de nodo y chasis no son separados, a diferencia del caso del chasis de 2U de cuatro nodos.
@@ -205,6 +218,7 @@ image::h610s_chassis.gif[Muestra el nodo/chasis H615C o H610S que se están inst
 
 
 
+[[install-the-switches]]
 == Instale los interruptores
 
 Si desea utilizar los conmutadores Mellanox SN2010, SN2100 y SN2700 en la instalación de NetApp HCI, siga las instrucciones que se proporcionan aquí para instalar y cablear los conmutadores:
@@ -215,6 +229,7 @@ Si desea utilizar los conmutadores Mellanox SN2010, SN2100 y SN2700 en la instal
 
 
 
+[[cable-the-nodes]]
 == Cablee los nodos
 
 Si va a añadir nodos a una instalación existente de NetApp HCI, compruebe que la configuración de cableado y red de los nodos que añade sea idéntica a la de la instalación existente.
@@ -230,6 +245,7 @@ CAUTION: Asegúrese de que la apertura de flujo de aire de la parte trasera del 
 
 
 
+[[h410c-compute-node-and-h410s-storage-node]]
 === Nodo de computación H410C y nodo de almacenamiento H410S
 
 Tiene dos opciones para cablear el nodo H410C: Mediante dos cables o mediante seis cables.
@@ -268,6 +284,7 @@ Después de conectar los nodos, conecte los cables de alimentación a las dos un
 
 
 
+[[h610c-compute-node]]
 === Nodo de computación H610C
 
 Este es el cableado para el nodo H610C:
@@ -285,6 +302,7 @@ image:light blue circle.png["punto azul claro"] Conecte los dos cables de alimen
 
 
 
+[[h615c-compute-node]]
 === Nodo de computación H615C
 
 Este es el cableado para el nodo H615C:
@@ -302,6 +320,7 @@ image:light blue circle.png["punto azul claro"] Conecte los dos cables de alimen
 
 
 
+[[h610s-storage-node]]
 === Nodo de almacenamiento H610S
 
 Este es el cableado para el nodo H610S:
@@ -318,6 +337,7 @@ image:light blue circle.png["punto azul claro"] Conecte ambos cables de alimenta
 
 
 
+[[power-on-the-nodes]]
 == Encienda los nodos
 
 Los nodos tardan aproximadamente seis minutos en arrancar.
@@ -336,6 +356,7 @@ image::H600S_ISI_nodefront.png[Muestra el botón de alimentación en el nodo H61
 
 
 
+[[configure-netapp-hci]]
 == Configure NetApp HCI
 
 Elija una de las siguientes opciones:
@@ -346,6 +367,7 @@ Elija una de las siguientes opciones:
 
 
 
+[[new-netapp-hci-installation]]
 === Nueva instalación de NetApp HCI
 
 .Pasos
@@ -369,6 +391,7 @@ NOTE: Todos los demás nodos NetApp HCI se detectan de forma automática.
 
 
 
+[[expand-an-existing-netapp-hci-installation]]
 === Amplíe una instalación existente de NetApp HCI
 
 .Pasos
@@ -387,6 +410,7 @@ NOTE: Los nodos NetApp HCI instalados recientemente en la misma red se detectan 
 
 
 
+[[perform-post-configuration-tasks]]
 == Realice tareas posteriores a la configuración
 
 Según el tipo de nodo que tenga, es posible que necesite realizar pasos adicionales después de instalar el hardware y configurar NetApp HCI.
@@ -397,12 +421,14 @@ Según el tipo de nodo que tenga, es posible que necesite realizar pasos adicion
 
 
 
+[[h610c-node]]
 === Nodo H610C
 
 Instale los controladores de GPU en ESXi para cada nodo H610C que ha instalado, y valide su funcionalidad.
 
 
 
+[[h615c-and-h610s-nodes]]
 === Los nodos H615C y H610S
 
 .Pasos
@@ -417,6 +443,6 @@ Si el nodo H615C tiene GPU en él, instale los controladores de GPU en ESXi para
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
-* https://www.netapp.com/pdf.html?item=/media/9413-tr4820pdf.pdf["_TR-4820: Guía de planificación rápida de redes de NetApp HCI_"^]
+* https://www.netapp.com/pdf.html?item=/media/9413-tr4820.pdf["_TR-4820: Guía de planificación rápida de redes de NetApp HCI_"^]
 * https://mysupport.netapp.com/site/tools["Asesor de configuración de NetApp"^] herramienta de validación de red 5.8.1 o posterior
 

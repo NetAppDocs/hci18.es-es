@@ -18,6 +18,7 @@ Después de implementar Rancher en NetApp HCI, puede ver las direcciones URL y e
 
 
 
+[[identify-rancher-server-cluster-urls-and-status]]
 == Identificar las direcciones URL y el estado del clúster del servidor Rancher
 
 Puede identificar las direcciones URL del clúster del servidor de Rancher y determinar el estado del servidor.

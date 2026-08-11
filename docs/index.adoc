@@ -21,6 +21,7 @@ Puede actualizar, ampliar y supervisar el sistema con la interfaz de control de 
 
 
 
+[[discover-whats-new]]
 == Descubra las novedades
 
 * link:rn_whatsnew.html["Novedades en NetApp HCI"]
@@ -31,6 +32,7 @@ Puede actualizar, ampliar y supervisar el sistema con la interfaz de control de 
 
 
 
+[[get-started-with-netapp-hci]]
 == Empiece a usar NetApp HCI
 
 * link:task_hci_getstarted.html["Información general sobre la instalación y la puesta en marcha de NetApp HCI"]
@@ -41,5 +43,4 @@ Puede actualizar, ampliar y supervisar el sistema con la interfaz de control de 
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 

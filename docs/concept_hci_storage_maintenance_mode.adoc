@@ -45,6 +45,7 @@ Puede ver los estados de las operaciones en modo de mantenimiento cuando trabaja
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * https://docs.netapp.com/sfe-122/index.jsp["Centro de documentación de SolidFire y Element"^]

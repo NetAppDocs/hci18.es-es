@@ -54,6 +54,7 @@ También puede obtener más información sobre las comprobaciones del estado del
 
 
 
+[[use-netapp-hybrid-cloud-control-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == Utilice Cloud Control de NetApp híbrido para ejecutar comprobaciones del estado del almacenamiento Element antes de actualizar el almacenamiento
 
 Con el control de cloud híbrido (HCC) de NetApp, puede verificar que un clúster de almacenamiento está listo para actualizarse.
@@ -83,6 +84,7 @@ Una vez que la comprobación del estado se completa sin errores, el clúster de 
 
 
 
+[[use-api-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == Utilice API para ejecutar comprobaciones del estado del almacenamiento de Element antes de actualizar el almacenamiento
 
 Es posible utilizar API DE REST para verificar que un clúster de almacenamiento esté listo para actualizarse. La comprobación del estado verifica que no hay obstáculos para la actualización, como los nodos pendientes, los problemas de espacio en disco y los fallos del clúster.
@@ -214,6 +216,7 @@ Si todas las comprobaciones del estado se realizan correctamente, la devolución
 
 
 
+[[use-healthtools-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == Utilice HealthTools para ejecutar comprobaciones del estado del almacenamiento Element antes de actualizar el almacenamiento
 
 Puede verificar que el clúster de almacenamiento está listo para actualizarse mediante `sfupgradecheck` el comando. Este comando verifica información como nodos pendientes, espacio de disco y fallos de clúster.
@@ -283,6 +286,7 @@ Node ID: 2 Upload speed: 85038.75 KBs/sec
 
 
 
+[[your-cluster-is-not-upgrade-ready]]
 === Su clúster no está listo para la actualización
 
 Si ve un mensaje de error relacionado con una de las comprobaciones del estado, siga estos pasos:
@@ -333,6 +337,7 @@ En este ejemplo, el nodo 1 tiene poco espacio en disco. Puede encontrar más inf
 
 
 
+[[healthtools-is-out-of-date]]
 === HealthTools está desfasada
 
 Si aparece un mensaje de error que indica que HealthTools no es la última versión, siga estas instrucciones:
@@ -355,6 +360,7 @@ Or rerun with the -n option
 
 
 
+[[your-management-node-is-on-a-dark-site]]
 === Su nodo de gestión está en un sitio oscuro
 
 . Revise el mensaje y tenga en cuenta que la comprobación de actualización falla:
@@ -384,6 +390,7 @@ sfupgradecheck -u <cluster-user-name> -p <cluster-password> MVIP
 
 
 
+[[storage-health-checks-made-by-the-service]]
 == Comprobaciones del estado del almacenamiento realizadas por el servicio
 
 Las comprobaciones del estado del almacenamiento realizan las siguientes comprobaciones por clúster.

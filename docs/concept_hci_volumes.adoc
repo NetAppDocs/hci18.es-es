@@ -20,6 +20,7 @@ El plugin de NetApp Element para vCenter Server permite crear, ver, editar, elim
 
 
 
+[[persistent-volumes]]
 == Volúmenes persistentes
 
 Los volúmenes persistentes permiten que los datos de configuración del nodo de gestión se almacenen en un clúster de almacenamiento especificado, en lugar de localmente con una máquina virtual, de modo que los datos se puedan conservar en caso de pérdida o eliminación del nodo de gestión. Los volúmenes persistentes son una configuración de nodos de gestión opcional pero recomendada.
@@ -35,6 +36,7 @@ NOTE: Los volúmenes persistentes asociados con servicios de gestión se crean y
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * link:task_hcc_manage_vol_management.html["Gestione los volúmenes"]

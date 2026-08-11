@@ -25,6 +25,7 @@ Se puede link:concept_hci_initiators.html["iniciadores"] utilizar para el acceso
 
 
 
+[[create-an-initiator]]
 == Cree un iniciador
 
 Es posible crear iniciadores iSCSI o Fibre Channel y, opcionalmente, asignarles alias.
@@ -76,6 +77,7 @@ El formato aceptado de WWPN de un iniciador Fibre Channel es `:Aa:bB:CC:dd:11:22
 
 
 
+[[add-initiators-to-a-volume-access-group]]
 == Añada iniciadores a un grupo de acceso de volúmenes
 
 Es posible añadir un iniciador a un grupo de acceso de volúmenes. Cuando se añade un iniciador a un grupo de acceso de volúmenes, el iniciador permite el acceso a todos los volúmenes en ese grupo de acceso de volúmenes.
@@ -93,6 +95,7 @@ Es posible añadir un iniciador a un grupo de acceso de volúmenes. Cuando se a�
 
 
 
+[[change-an-initiator-alias]]
 == Cambie un alias de iniciador
 
 Es posible cambiar el alias de un iniciador existente o añadir un alias si aún no hay ninguno.
@@ -110,6 +113,7 @@ Es posible cambiar el alias de un iniciador existente o añadir un alias si aún
 
 
 
+[[delete-initiators]]
 == Elimine los iniciadores
 
 Puede eliminar uno o varios iniciadores. Cuando se elimina un iniciador, el sistema la quita de los grupos de acceso de volúmenes asociados. Las conexiones que usan el iniciador siguen siendo válidas hasta que se restablece la conexión.

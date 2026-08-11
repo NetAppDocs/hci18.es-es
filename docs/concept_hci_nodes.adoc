@@ -20,6 +20,7 @@ El software NetApp HCI y Element define varios roles de nodo para un clúster. L
 
 
 
+[[management-node]]
 == Nodo de gestión
 
 El nodo de gestión (a veces abreviado como mNode) interactúa con un clúster de almacenamiento para realizar acciones de gestión, pero no es miembro del clúster de almacenamiento. Los nodos de gestión recopilan información periódicamente sobre el clúster a través de llamadas API e informan a Active IQ para la supervisión remota (si está habilitada). Los nodos de gestión también son responsables de coordinar las actualizaciones de software de los nodos del clúster.
@@ -28,18 +29,21 @@ El nodo de gestión es una máquina virtual (VM) que se ejecuta en paralelo con 
 
 
 
+[[storage-nodes]]
 == Nodos de almacenamiento
 
 Los nodos de almacenamiento de NetApp HCI de son elementos de hardware que proporcionan recursos de almacenamiento para un sistema NetApp HCI de. Las unidades de cada nodo contienen espacio de bloques y metadatos para almacenar y gestionar los datos. Cada nodo contiene una imagen de fábrica de software NetApp Element. Los nodos de almacenamiento de NetApp HCI se pueden gestionar mediante el punto de extensión NetApp Element Management.
 
 
 
+[[compute-nodes]]
 == Nodos de computación
 
 Los nodos de computación NetApp HCI son elementos de hardware que proporcionan recursos de computación, como CPU, memoria y redes, que se necesitan para la virtualización en la instalación de NetApp HCI. Como cada servidor ejecuta VMware ESXi, la gestión de los nodos de computación NetApp HCI (añadir o quitar hosts) debe realizarse fuera del plugin dentro del menú hosts and Clusters de vSphere. Ya sea que se trate de un clúster de almacenamiento de cuatro nodos o de un clúster de almacenamiento de dos nodos, el número mínimo de nodos de computación sigue siendo dos para una implementación de NetApp HCI.
 
 
 
+[[witness-nodes]]
 == Nodos de testigos
 
 Los nodos de testimonio de NetApp HCI son máquinas virtuales que se ejecutan en nodos de computación en paralelo con un clúster de almacenamiento basado en el software Element. Los nodos de testigos no alojan los servicios de segmentos o bloques. Un nodo testigo habilita la disponibilidad de un clúster de almacenamiento en caso de que se produzca un fallo en un nodo de almacenamiento. Puede gestionar y actualizar los nodos de testigos de la misma forma que los de otros nodos de almacenamiento. Un clúster de almacenamiento puede tener hasta cuatro nodos testigos. Su propósito principal es garantizar que existan nodos de clúster suficientes para formar un quórum de conjunto válido.
@@ -59,6 +63,7 @@ NOTE: En un clúster de almacenamiento de dos nodos, se ponen en marcha un míni
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * https://www.netapp.com/pdf.html?item=/media/9489-tr-4823.pdf["Clúster de almacenamiento de dos nodos NetApp HCI | TR-4823"^]

@@ -18,6 +18,7 @@ Al utilizar NetApp HCI, sus datos están protegidos por protocolos de seguridad 
 
 
 
+[[encryption-at-rest-for-storage-nodes]]
 == Cifrado en reposo para nodos de almacenamiento
 
 NetApp HCI le permite cifrar todos los datos almacenados en el clúster de almacenamiento.
@@ -30,12 +31,14 @@ Para obtener información sobre cómo habilitar y deshabilitar el cifrado en rep
 
 
 
+[[software-encryption-at-rest]]
 == Cifrado de software en reposo
 
 El cifrado por software en reposo permite cifrar todos los datos que se escriben en las unidades SSD de un clúster de almacenamiento. Esto proporciona una capa principal de cifrado en los nodos SDS empresariales de SolidFire que no incluyen unidades de cifrado automático (SED).
 
 
 
+[[external-key-management]]
 == Gestión de claves externas
 
 Es posible configurar el software Element para utilizar un servicio de gestión de claves (KMS) compatible con KMIP de terceros para gestionar las claves de cifrado de los clústeres de almacenamiento. Cuando habilita esta función, la clave de cifrado de contraseña de acceso a unidades para todo el clúster de almacenamiento se gestiona mediante un KMS que especifique. Element puede usar los siguientes servicios de gestión de claves:
@@ -51,6 +54,7 @@ Para obtener más información sobre la configuración de la gestión de claves 
 
 
 
+[[multi-factor-authentication]]
 == Autenticación de múltiples factores
 
 La autenticación multifactor (MFA) permite requerir que los usuarios presenten múltiples tipos de pruebas para autenticar con la interfaz de usuario web de NetApp Element o la interfaz de usuario del nodo de almacenamiento después del inicio de sesión. Puede configurar el elemento para que acepte sólo la autenticación de múltiples factores para los inicios de sesión que se integran con el sistema de administración de usuarios y el proveedor de identidades existentes. Es posible configurar Element para que se integre con un proveedor de identidades SAML 2.0 existente que pueda aplicar múltiples esquemas de autenticación, como mensajes de texto y contraseña, mensajes de correo electrónico y contraseña, u otros métodos.
@@ -61,6 +65,7 @@ Para configurar la MFA, consulte http://docs.netapp.com/sfe-122/topic/com.netapp
 
 
 
+[[fips-140-2-for-https-and-data-at-rest-encryption]]
 == FIPS 140-2 para HTTPS y cifrado de datos en reposo
 
 Los clústeres de almacenamiento SolidFire de NetApp y los sistemas NetApp HCI admiten el cifrado conforme a los requisitos de estándar de procesamiento de información federal (FIPS) 140-2 para módulos criptográficos. Es posible habilitar el cumplimiento de la normativa FIPS 140-2 en el clúster NetApp HCI o SolidFire para las comunicaciones HTTPS y el cifrado de unidades.

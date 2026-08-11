@@ -18,6 +18,7 @@ Puede modificar y probar la red de los nodos de gestión, el clúster y la confi
 
 
 
+[[update-management-node-network-settings]]
 == Actualice la configuración de red del nodo de gestión
 
 En la pestaña Network Settings de la interfaz de usuario de nodo de gestión por nodo, puede modificar los campos de la interfaz de red de los nodos de gestión.
@@ -61,6 +62,7 @@ IMPORTANT: Las opciones IPv6 no son compatibles con las versiones 11.3 o posteri
 
 
 
+[[update-management-node-cluster-settings]]
 == Actualice la configuración del clúster del nodo de gestión
 
 En la pestaña Cluster Settings de la interfaz de usuario por nodo para la gestión de los nodos, los campos de la interfaz de clúster se pueden modificar cuando un nodo está en el estado Available, Pending, PendingActive y Active.
@@ -78,6 +80,7 @@ En la pestaña Cluster Settings de la interfaz de usuario por nodo para la gesti
 
 
 
+[[test-the-management-node-settings]]
 == Pruebe los ajustes del nodo de gestión
 
 Después de cambiar la configuración de red y de gestión del nodo de gestión y confirmar los cambios, puede ejecutar pruebas para validar los cambios realizados.

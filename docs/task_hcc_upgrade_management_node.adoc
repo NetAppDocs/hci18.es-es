@@ -42,6 +42,7 @@ NOTE: Si no actualiza secuencialmente los servicios de gestión seguidos por el 
 
 
 
+[[upgrade-a-management-node-to-version-12-2-from-12-0]]
 == Actualice un nodo de gestión a la versión 12,2 desde 12,0
 
 Puede realizar una actualización in situ del nodo de gestión de la versión 12,0 a la versión 12,2 sin necesidad de aprovisionar una nueva máquina virtual del nodo de gestión.
@@ -150,6 +151,7 @@ IMPORTANT: Si previamente había deshabilitado la funcionalidad SSH en el nodo d
 
 
 
+[[upgrade-a-management-node-to-version-12-2-from-11-3-through-11-8]]
 == Actualice un nodo de gestión a la versión 12,2 de 11,3 a 11,8
 
 Puede realizar una actualización in situ del nodo de gestión de la versión 11,3, 11,5, 11,7 o 11,8 a la versión 12,2 sin necesidad de aprovisionar una nueva máquina virtual del nodo de gestión.
@@ -245,6 +247,7 @@ IMPORTANT: Si previamente había deshabilitado la funcionalidad SSH en el nodo d
 
 
 
+[[upgrade-a-management-node-to-version-12-2-from-11-1-or-11-0]]
 == Actualice un nodo de gestión a la versión 12,2 de 11,1 o 11,0
 
 Puede realizar una actualización in situ del nodo de gestión de 11,0 o 11,1 a la versión 12,2 sin necesidad de aprovisionar una nueva máquina virtual del nodo de gestión.
@@ -432,6 +435,7 @@ Su instalación tiene una configuración de activos base que se creó durante la
 
 
 
+[[migrating-from-management-node-version-10-x-to-11-x]]
 == Migrar desde el nodo de gestión versión 10.x a 11.x.
 
 Si tiene un nodo de gestión en la versión 10.x, no puede actualizar de 10.x a 11.x. En su lugar, se puede utilizar este procedimiento de migración para copiar mediante la configuración desde 10.x a un nodo de gestión 11.1 recién implementado. Si el nodo de gestión está actualmente en 11.0 o una versión superior, debe omitir este procedimiento. Necesita el nodo de gestión 11,0 o 11,1 y la última HealthTools para actualizar el software Element de la versión 10,3 + a la 11.x.
@@ -541,6 +545,7 @@ sudo systemctl restart sfcollector
 
 
 
+[[reconfigure-authentication-using-the-management-node-rest-api]]
 == Volver a configurar la autenticación mediante la API DE REST del nodo de gestión
 
 Se puede conservar el nodo de gestión existente si se actualizaron secuencialmente (1) y (2) el almacenamiento de Element. Si ha seguido un orden de actualización diferente, consulte los procedimientos para actualizar nodos de gestión sin movimiento.

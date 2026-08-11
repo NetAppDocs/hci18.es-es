@@ -28,6 +28,7 @@ Consulte  https://rancher.com/docs/rancher/v2.x/en/user-settings/node-templates/
 
 
 
+[[trident-software-and-persistent-storage-concepts]]
 == El software Trident y los conceptos de almacenamiento persistente
 
 Trident, en sí misma una aplicación nativa de Kubernetes, se ejecuta directamente en un clúster de Kubernetes. Con Trident, los usuarios de Kubernetes (como desarrolladores, científicos de datos y administradores de Kubernetes) pueden crear, gestionar e interactuar con volúmenes de almacenamiento persistentes en el formato Kubernetes estándar, con el que ya están familiarizados. Con Trident, las soluciones de NetApp pueden satisfacer las demandas de volumen persistente que realizan los clústeres de Kubernetes.

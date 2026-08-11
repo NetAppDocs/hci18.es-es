@@ -23,12 +23,14 @@ Las versiones de firmware admitidas para los nodos de almacenamiento H-Series y 
 
 
 
+[[h610s]]
 == H610S
 
 *Número de modelo (parte de la familia):* H610S *números de modelo completo:* H610S-1, H610S-1-NE, H610S-2, H610S-2-NE, H610S-4, H610S-4-NE Y H610S-2F
 
 
 
+[[component-firmware-managed-by-a-storage-firmware-bundle]]
 === El firmware del componente gestionado por un paquete de firmware de almacenamiento
 
 Durante el periodo de tiempo de 11.x, el software NetApp Element era la única forma de liberar firmware. A partir de Element 12.0, se introdujo el concepto de *paquete de firmware de almacenamiento* y las actualizaciones de firmware ahora fueron posibles gracias a un paquete de firmware de almacenamiento o un paquete de firmware de almacenamiento que se incluye como parte de una versión de Element 12.x.
@@ -108,6 +110,7 @@ NOTE: Un guión (*-*) en la tabla siguiente indica que el componente de hardware
 |===
 
 
+[[component-firmware-not-managed-by-a-storage-firmware-bundle]]
 === El firmware del componente no está gestionado por un paquete de firmware de almacenamiento
 
 Un paquete de firmware de almacenamiento no gestiona el siguiente firmware:
@@ -124,12 +127,14 @@ Un paquete de firmware de almacenamiento no gestiona el siguiente firmware:
 |===
 
 
+[[h410s]]
 == H410S
 
 *Número de modelo (porción de familia):* H410S *números de modelo completos:* H410S-0, H410S-1, H410S-1-NE y H410S-2
 
 
 
+[[component-firmware-managed-by-a-storage-firmware-bundle]]
 === El firmware del componente gestionado por un paquete de firmware de almacenamiento
 
 El firmware del componente gestionado por un paquete de firmware de almacenamiento.
@@ -185,6 +190,7 @@ El firmware del componente gestionado por un paquete de firmware de almacenamien
 |===
 
 
+[[component-firmware-not-managed-by-a-storage-firmware-bundle]]
 === El firmware del componente no está gestionado por un paquete de firmware de almacenamiento
 
 Un paquete de firmware de almacenamiento no gestiona el siguiente firmware:
@@ -216,12 +222,14 @@ Un paquete de firmware de almacenamiento no gestiona el siguiente firmware:
 |===
 
 
+[[sfnodessf38410-sf19210-sf9605-and-sf4805]]
 == [[sf_Nodes]]SF38410, SF19210, SF9605 y SF4805
 
 * Números de modelo completos:* SF38410, SF19210, SF9605 y SF4805
 
 
 
+[[component-firmware-managed-by-a-storage-firmware-bundle]]
 === El firmware del componente gestionado por un paquete de firmware de almacenamiento
 
 Durante el periodo de tiempo de 11.x, el software NetApp Element era la única forma de liberar firmware. A partir de Element 12.0, se introdujo el concepto de *paquete de firmware de almacenamiento* y las actualizaciones de firmware ahora fueron posibles gracias a un paquete de firmware de almacenamiento o un paquete de firmware de almacenamiento que se incluye como parte de una versión de Element 12.x.
@@ -307,6 +315,7 @@ NOTE: Un guión (*-*) en la tabla siguiente indica que el componente de hardware
 |===
 
 
+[[component-firmware-not-managed-by-a-storage-firmware-bundle]]
 === El firmware del componente no está gestionado por un paquete de firmware de almacenamiento
 
 Un paquete de firmware de almacenamiento no gestiona el siguiente firmware:

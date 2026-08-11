@@ -21,6 +21,7 @@ NOTE: Se le pedirá que inicie sesión con sus credenciales del sitio de soporte
 
 
 
+[[netapp-hci]]
 == HCI de NetApp
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2873790["Notas de la versión de NetApp HCI 1.8P1"^]
@@ -30,6 +31,7 @@ NOTE: Se le pedirá que inicie sesión con sus credenciales del sitio de soporte
 
 
 
+[[netapp-element-software]]
 == Software NetApp Element
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2873789["Notas de la versión del software NetApp Element 12.2"^]
@@ -42,6 +44,7 @@ NOTE: Se le pedirá que inicie sesión con sus credenciales del sitio de soporte
 
 
 
+[[management-services]]
 == Servicios de gestión
 
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["Notas de la versión de los servicios de gestión"^]
@@ -49,6 +52,7 @@ NOTE: Se le pedirá que inicie sesión con sus credenciales del sitio de soporte
 
 
 
+[[netapp-element-plug-in-for-vcenter-server]]
 == Plugin de NetApp Element para vCenter Server
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2885734["Notas de la versión del plugin de vCenter 5,1"^] _NUEVO_
@@ -65,6 +69,7 @@ NOTE: Se le pedirá que inicie sesión con sus credenciales del sitio de soporte
 
 
 
+[[compute-firmware]]
 == Firmware de computación
 
 * link:rn_compute_firmware_2.146.html["Notas de la versión de Compute firmware Bundle 2.146"]
@@ -75,6 +80,7 @@ NOTE: Se le pedirá que inicie sesión con sus credenciales del sitio de soporte
 
 
 
+[[storage-firmware]]
 == Firmware de almacenamiento
 
 * link:rn_storage_firmware_2.146.html["Notas de la versión del paquete de firmware de almacenamiento 2.146"]

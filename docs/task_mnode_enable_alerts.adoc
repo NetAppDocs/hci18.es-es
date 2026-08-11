@@ -20,6 +20,7 @@ La supervisión de alertas de NetApp HCI reenvía las alertas del sistema de cl�
 
 
 
+[[alert-monitoring-options]]
 == Opciones de supervisión de alertas
 
 [cols="2*"]

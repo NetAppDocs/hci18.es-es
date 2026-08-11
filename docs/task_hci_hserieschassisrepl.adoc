@@ -31,6 +31,7 @@ Elija una de las siguientes opciones: <<Reemplace el chasis cuando haya espacio 
 
 
 
+[[replace-the-chassis-when-additional-unused-space-is-available-in-the-rack]]
 == Reemplace el chasis cuando haya espacio adicional sin utilizar disponible en el rack
 
 Si su rack tiene espacio adicional, puede instalar el nuevo chasis y mover los nodos de uno en uno al nuevo chasis. Si alguno de los chasis instalados tiene ranuras para nodos no utilizadas, puede mover los nodos del chasis con errores a las ranuras no utilizadas de uno en uno y, a continuación, quite el chasis con errores. Antes de ser el procedimiento, asegúrese de que las longitudes de los cables sean suficientes y de que los puertos del switch estén disponibles.
@@ -40,6 +41,7 @@ NOTE: Los pasos para mover nodos de computación son diferentes de los pasos par
 
 
 
+[[install-the-new-chassis]]
 === Instale el chasis nuevo
 
 Puede instalar el nuevo chasis en el espacio de rack disponible y mover los nodos hacia él.
@@ -65,6 +67,7 @@ TIP: Utilice siempre mano de obra suficiente o un elevador mientras instala el c
 
 
 
+[[move-a-compute-node]]
 === Mover un nodo de computación
 
 Antes de mover un nodo de computación al nuevo chasis o a un chasis existente que tiene ranuras adicionales sin utilizar, debe migrar las máquinas virtuales (VM), apagar el nodo correctamente y etiquetar los cables insertados en el nodo.
@@ -104,7 +107,8 @@ CAUTION: Asegúrese de no forzar los cables en los puertos; podría dañar los c
 
 
 
-=== Mover un nodo de almacenamiento
+[[first-stepmove-a-storage-node]]
+=== [[primer paso]]Mueve un nodo de almacenamiento
 
 Antes de mover los nodos de almacenamiento al nuevo chasis, debe quitar las unidades, apagar los nodos correctamente y etiquetar todos los componentes.
 
@@ -169,6 +173,7 @@ NOTE: Puede que el nodo tarde hasta 15 minutos en agregarse y se muestre en *nod
 
 
 
+[[replace-the-chassis-when-additional-unused-space-is-not-available-in-the-rack]]
 == Sustituya el chasis cuando no se encuentre espacio adicional sin utilizar disponible en el rack
 
 Si el rack no dispone de espacio adicional y si ninguno de los chasis de la implementación tiene ranuras de nodo sin usar, debe determinar qué puede permanecer en línea, de ser necesario, antes de realizar el procedimiento de reemplazo.
@@ -182,6 +187,7 @@ Debe tener en cuenta los siguientes puntos antes de sustituir el chasis:
 
 
 
+[[shut-down-a-compute-node]]
 === Apague un nodo de computación
 
 Antes de mover el nodo de computación al nuevo chasis, debe migrar las máquinas virtuales, apagarlo correctamente y etiquetar los cables insertados en el nodo.
@@ -200,12 +206,14 @@ NOTE: Consulte la documentación de VMware para conocer los pasos de migración.
 
 
 
+[[shut-down-a-storage-node]]
 === Apague un nodo de almacenamiento
 
-Consulte los pasos <<move a storage node,aquí>>.
+Consulta los pasos <<first-step,aquí>>.
 
 
 
+[[remove-the-node]]
 === Quite el nodo
 
 Debe asegurarse de quitar el nodo con cuidado del chasis y de etiquetar todos los componentes. Los pasos para quitar físicamente el nodo son los mismos para los nodos de computación y de almacenamiento. Para un nodo de almacenamiento de, quite la unidad antes de quitar el nodo.
@@ -230,6 +238,7 @@ Debe asegurarse de quitar el nodo con cuidado del chasis y de etiquetar todos lo
 
 
 
+[[replace-the-chassis]]
 === Sustituya el chasis
 
 Si el rack no dispone de espacio adicional, debe desinstalar el chasis con errores y reemplazarlo por el nuevo chasis.
@@ -294,8 +303,8 @@ NOTE: Puede que el nodo tarde hasta 15 minutos en agregarse y se muestre en *nod
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 * http://docs.netapp.com/sfe-122/index.jsp["Centro de documentación de SolidFire y el software Element"^]
 

@@ -18,6 +18,7 @@ La actualización descargable de BMC contiene mejoras de funciones y correccione
 
 
 
+[[whats-new]]
 == Novedades
 
 H610S BMC 3.84.07 contiene varias correcciones de errores y nuevas funciones. Esta versión aporta al firmware de BMC actualizado sobre el terreno crítico antes de las versiones posteriores del paquete de firmware de almacenamiento y el software Element, que también incluirán este firmware de BMC actualizado para nodos H610S.
@@ -26,6 +27,7 @@ Este paquete de firmware es compatible con las versiones 11.8, 12.0 y 12.2 de El
 
 
 
+[[new-features]]
 == Nuevas funcionalidades
 
 A continuación, se muestran las nuevas funciones y los cambios que se incluyen en esta versión:
@@ -40,6 +42,7 @@ A continuación, se muestran las nuevas funciones y los cambios que se incluyen 
 
 
 
+[[resolved-issues]]
 == Problemas resueltos
 
 Los siguientes son problemas que se resolvieron en esta versión:
@@ -70,12 +73,14 @@ Los siguientes son problemas que se resolvieron en esta versión:
 |===
 
 
+[[known-issues]]
 == Problemas conocidos
 
 No existen problemas conocidos en esta versión.
 
 
 
+[[upgrading-bmc-firmware-on-h610s-nodes]]
 == Actualizar el firmware de BMC en nodos H610S
 
 Realice los pasos siguientes para actualizar la versión de firmware del BMC en los nodos H610S. El procedimiento puede tardar aproximadamente 30 minutos en completarse.

@@ -44,6 +44,7 @@ También puede obtener más información acerca de las comprobaciones de estado 
 
 
 
+[[use-netapp-hybrid-cloud-control-to-run-compute-node-health-checks-prior-to-upgrading-firmware]]
 == Utilice control de cloud híbrido de NetApp para ejecutar comprobaciones de estado del nodo de computación antes de actualizar el firmware
 
 Mediante el control de cloud híbrido de NetApp (HCC), puede comprobar que un nodo de computación esté listo para una actualización de firmware.
@@ -76,6 +77,7 @@ Cuando la comprobación del estado se completa sin errores, los nodos de computa
 
 
 
+[[use-api-to-run-compute-node-health-checks-prior-to-upgrading-firmware]]
 == Utilice API para ejecutar comprobaciones del estado del nodo de computación antes de actualizar el firmware
 
 Es posible usar la API DE REST para verificar que los nodos de computación de un clúster estén listos para actualizarse. La comprobación del estado verifica que no haya obstáculos para la actualización, como problemas del host ESXi u otros problemas de vSphere. Tendrá que ejecutar comprobaciones del estado de los nodos de computación para cada clúster de computación del entorno.
@@ -209,6 +211,7 @@ Si las comprobaciones de estado se completan sin problemas, el código de respue
 
 
 
+[[compute-node-health-checks-made-by-the-service]]
 == El servicio de computación realiza las comprobaciones de estado del nodo
 
 Las comprobaciones del estado de los recursos informáticos, tanto si se realizan mediante métodos HCC como API, realizan las siguientes comprobaciones por nodo. En función del entorno, es posible que se omitan algunas de estas comprobaciones. Debe volver a ejecutar las comprobaciones del estado después de resolver los problemas detectados.

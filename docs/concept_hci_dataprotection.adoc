@@ -28,6 +28,7 @@ La protección de datos de NetApp HCI incluye los siguientes conceptos:
 
 
 
+[[remote-replication-types]]
 == Tipos de replicación remota
 
 La replicación remota de datos puede adoptar las siguientes formas:
@@ -37,10 +38,11 @@ La replicación remota de datos puede adoptar las siguientes formas:
 * <<Replicación entre clústeres de Element y ONTAP mediante SnapMirror>>
 
 
-Consulte https://www.netapp.com/pdf.html?item=/media/10607-tr4741pdf.pdf["TR-4741: Replicación remota del software NetApp Element"^].
+Consulta https://www.netapp.com/pdf.html?item=/media/10607-tr4741.pdf["TR-4741: Replicación remota del software NetApp Element"^].
 
 
 
+[[synchronous-and-asynchronous-replication-between-clusters]]
 === Replicación síncrona y asíncrona entre clústeres
 
 En los clústeres que ejecutan el software NetApp Element, la replicación en tiempo real permite la creación rápida de copias remotas de datos de volumen.
@@ -75,6 +77,7 @@ La replicación asíncrona es apropiada para las siguientes situaciones:
 
 
 
+[[snapshot-only-replication]]
 === Replicación solo de Snapshot
 
 La protección de datos con Snapshot replica los datos modificados en momentos específicos a un clúster remoto. Solo se replican las copias de Snapshot que se crean en el clúster de origen. No se producen las escrituras activas del volumen de origen.
@@ -85,6 +88,7 @@ La replicación Snapshot no afecta a la replicación asíncrona o síncrona.
 
 
 
+[[replication-between-element-and-ontap-clusters-using-snapmirror]]
 === Replicación entre clústeres de Element y ONTAP mediante SnapMirror
 
 Con la tecnología SnapMirror de NetApp, puede replicar copias snapshot realizadas mediante el software NetApp Element en ONTAP con fines de recuperación ante desastres. En una relación de SnapMirror, Element es un extremo y ONTAP es el otro.
@@ -103,6 +107,7 @@ Después de habilitar SnapMirror, es posible crear relaciones de SnapMirror desd
 
 
 
+[[volume-snapshots-for-data-protection]]
 == Snapshots de volumen para proteger los datos
 
 Una copia de Snapshot de volumen es una copia de un momento específico de un volumen que se puede utilizar más adelante para restaurar un volumen a ese momento específico.
@@ -117,6 +122,7 @@ Es posible realizar una copia Snapshot de un volumen individual o varias para la
 
 
 
+[[volume-clones]]
 == Clones de volúmenes
 
 Un clon de un solo volumen o de varios volúmenes es una copia puntual de los datos. Cuando se clona un volumen, el sistema crea una copia de Snapshot del volumen y, a continuación, crea una copia de los datos que se indican en la copia de Snapshot.
@@ -127,6 +133,7 @@ El clúster admite hasta dos solicitudes de clones en ejecución por volumen a l
 
 
 
+[[backup-and-restore-process-overview-for-solidfire-storage]]
 == Información general sobre el proceso de backup y restauración para el almacenamiento de SolidFire
 
 Es posible realizar backups y restaurar volúmenes en otro almacenamiento de SolidFire, así como en almacenes de objetos secundarios que sean compatibles con OpenStack Swift o Amazon S3.
@@ -142,6 +149,7 @@ Cuando se restauran volúmenes desde OpenStack Swift o Amazon S3, se necesita in
 
 
 
+[[protection-domains]]
 == Dominios de protección
 
 Un dominio de protección es un nodo o un conjunto de nodos agrupados, de modo que cualquier parte o incluso todos pueden fallar mientras se mantiene la disponibilidad de los datos. Los dominios de protección permiten que un clúster de almacenamiento se sane automáticamente de la pérdida de un chasis (afinidad de chasis) o de un dominio completo (grupo de chasis).
@@ -169,6 +177,7 @@ Consulte https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-7D31AC
 
 
 
+[[double-helix-high-availability]]
 == Alta disponibilidad de Double Helix
 
 La protección de datos de Double Helix es un método de replicación que expande al menos dos copias de datos redundantes en todas las unidades de un sistema. El enfoque “sin RAID” permite que un sistema absorba múltiples fallos simultáneos en todos los niveles del sistema de almacenamiento y los repare rápidamente.

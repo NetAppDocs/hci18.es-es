@@ -72,7 +72,7 @@ Consulte la información sobre https://docs.netapp.com/sfe-122/topic/com.netapp.
 
 .. *Políticas de QoS*: Puede ver la política de QoS aplicada al volumen. Una política de calidad de servicio aplica ajustes estandarizados para IOPS mínimos, IOPS máximos y IOPS de ráfaga en varios volúmenes.
 +
-Consulte la información sobre link:concept_hci_performance#qos-performance.html["Políticas de rendimiento y calidad de servicio"].
+Consulta la información sobre link:concept_hci_performance.html#qos-policies["Políticas de rendimiento y calidad de servicio"].
 
 +
 Consulte la información sobre https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-C90C0C1C-AE38-46FA-A854-BB425B55BEF4.html["Políticas de calidad de servicio"^] en la _Guía del usuario de NetApp Element_.

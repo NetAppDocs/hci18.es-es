@@ -19,6 +19,7 @@ Gestione los siguientes tipos de cuentas:
 
 
 
+[[enable-ldap]]
 == Active LDAP
 
 Para utilizar LDAP en cualquier cuenta de usuario, primero debe habilitar LDAP.
@@ -35,12 +36,14 @@ Para utilizar LDAP en cualquier cuenta de usuario, primero debe habilitar LDAP.
 
 
 
+[[manage-authoritative-cluster-accounts]]
 == Administrar cuentas de clúster autorizadas
 
 link:concept_cg_hci_accounts.html#authoritative-user-accounts["Cuentas de usuario autoritativas"] Se gestionan desde la opción de gestión de usuarios del menú superior derecho en el control de la nube híbrida de NetApp. Estos tipos de cuentas permiten la autenticación en cualquier activo de almacenamiento asociado con una instancia de NetApp Hybrid Cloud Control de nodos y clústeres. Con esta cuenta, puede gestionar volúmenes, cuentas, grupos de acceso y mucho más en todos los clústeres.
 
 
 
+[[create-an-authoritative-cluster-account]]
 === Cree una cuenta de clúster autorizada
 
 Puede crear una cuenta con Hybrid Cloud Control de NetApp.
@@ -77,6 +80,7 @@ TIP: Para asegurarse de que todos los hijos de un grupo heredan permisos, cree u
 
 
 
+[[edit-an-authoritative-cluster-account]]
 === Edite una cuenta de clúster autorizada
 
 Puede cambiar los permisos o la contraseña de una cuenta de usuario mediante NetApp Hybrid Cloud Control.
@@ -102,6 +106,7 @@ NOTE: Es posible que la interfaz de usuario de control de cloud híbrido de NetA
 
 
 
+[[delete-an-authoritative-user-account]]
 === Elimine una cuenta de usuario autorizada
 
 Puede eliminar una o varias cuentas cuando ya no sea necesaria. Es posible eliminar una cuenta de usuario de LDAP.
@@ -117,6 +122,7 @@ No puede eliminar la cuenta de usuario de administrador principal para el clúst
 
 
 
+[[manage-volume-accounts]]
 == Permite gestionar cuentas de volumen
 
 link:concept_cg_hci_accounts.html#volume-accounts["Cuentas de volumen"] Se gestionan dentro de la tabla de volúmenes de control de la nube híbrida de NetApp. Estas cuentas solo son específicas del clúster de almacenamiento en el que se crearon. Estos tipos de cuentas permiten establecer permisos en los volúmenes de la red, pero no afectan fuera de dichos volúmenes.
@@ -125,6 +131,7 @@ Una cuenta de volumen contiene la autenticación CHAP que se necesita para acced
 
 
 
+[[create-a-volume-account]]
 === Cree una cuenta de volumen
 
 Cree una cuenta específica para este volumen.
@@ -150,6 +157,7 @@ NOTE: Para generar automáticamente cualquiera de las contraseñas, deje los cam
 
 
 
+[[edit-a-volume-account]]
 === Editar una cuenta de volumen
 
 Puede cambiar la información de CHAP y cambiar si una cuenta está activa o bloqueada.
@@ -168,6 +176,7 @@ IMPORTANT: Si se elimina o se bloquea una cuenta asociada con el nodo de gestió
 
 
 
+[[delete-a-volume-account]]
 === Eliminar una cuenta de volumen
 
 Elimine una cuenta que ya no necesite.

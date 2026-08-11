@@ -21,6 +21,7 @@ Este procedimiento permite reemplazar unidades en nodos de almacenamiento H610S 
 
 
 
+[[best-practices-for-handling-drives]]
 == Prácticas recomendadas para gestionar unidades
 
 Se deben seguir las siguientes prácticas recomendadas para gestionar las unidades:
@@ -36,6 +37,7 @@ Se deben seguir las siguientes prácticas recomendadas para gestionar las unidad
 
 
 
+[[best-practices-for-adding-and-removing-drives]]
 == Prácticas recomendadas para agregar y quitar unidades
 
 Debe seguir estas prácticas recomendadas para añadir unidades al clúster y quitar unidades del clúster:
@@ -169,8 +171,8 @@ NOTE: Al instalar una unidad nueva en un nodo existente, la unidad se registra a
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 * http://docs.netapp.com/sfe-122/index.jsp["Centro de documentación de SolidFire y el software Element"^]
 

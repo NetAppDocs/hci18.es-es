@@ -21,6 +21,7 @@ NOTE: SolidFire Active IQ tiene una página de recomendaciones de calidad de ser
 
 
 
+[[quality-of-service-parameters]]
 == Parámetros de calidad de servicio
 
 Los parámetros de IOPS se definen de las siguientes formas:
@@ -56,6 +57,7 @@ Ejemplo: Una configuración del parámetro de calidad de servicio de 100 Min IOP
 
 
 
+[[qos-value-limits]]
 == Límites de valor de calidad de servicio
 
 Estos son los posibles valores mínimos y máximos de la calidad de servicio.
@@ -77,6 +79,7 @@ Estos son los posibles valores mínimos y máximos de la calidad de servicio.
 
 
 
+[[qos-performance]]
 == Rendimiento de la calidad de servicio
 
 La curva de rendimiento de calidad de servicio muestra la relación entre el tamaño de bloque y el porcentaje de IOPS.
@@ -91,6 +94,7 @@ A modo de ejemplo, si el tamaño de los bloques es de 4k y el ancho de banda es 
 
 
 
+[[qos-policies]]
 == Políticas de calidad de servicio
 
 Una política de calidad de servicio permite crear y guardar un ajuste de calidad de servicio estandarizado que se puede aplicar a muchos volúmenes.
@@ -106,5 +110,4 @@ NOTE: El clúster seleccionado debe ser Element 10.0 o posterior para usar polí
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 

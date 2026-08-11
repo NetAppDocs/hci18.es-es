@@ -61,6 +61,7 @@ A continuación se ofrece una descripción general de los pasos del procedimient
 
 
 
+[[prepare-to-replace-the-faulty-switch]]
 == Prepárese para sustituir el interruptor defectuoso
 
 Realice los pasos siguientes antes de sustituir el interruptor defectuoso.
@@ -80,6 +81,7 @@ Realice los pasos siguientes antes de sustituir el interruptor defectuoso.
 
 
 
+[[create-the-configuration-file]]
 == Cree el archivo de configuración
 
 Puede configurar un conmutador mediante los archivos de configuración que cree. Elija una de las siguientes opciones para crear el archivo de configuración para el conmutador.
@@ -160,6 +162,7 @@ no interface mgmt0 dhcp
 |===
 
 
+[[remove-the-faulty-switch-and-install-the-replacement]]
 == Retire el interruptor defectuoso e instale la sustitución
 
 Lleve a cabo los pasos necesarios para extraer el interruptor defectuoso e instalar la sustitución.
@@ -180,6 +183,7 @@ NOTE: El interruptor se enciende automáticamente cuando se activa la alimentaci
 
 
 
+[[verify-the-operating-system-version-on-the-switch]]
 == Verifique la versión del sistema operativo en el interruptor
 
 Compruebe la versión del software del sistema operativo en el switch. La versión del interruptor defectuoso y el interruptor en buen estado deben coincidir.
@@ -213,14 +217,15 @@ System memory:     3525 MB used / 3840 MB free / 7365 MB total
 Swap:              0 MB used / 0 MB free / 0 MB total
 
 ----
-. Si las versiones no coinciden, debería actualizar el sistema operativo. Consulte la link:https://community.mellanox.com/s/article/howto-upgrade-switch-os-software-on-mellanox-switch-systems["Guía de actualización de software de Mellanox"^] para obtener más detalles.
+. Si las versiones no coinciden, debes actualizar el sistema operativo. Consulta el enlace: Consulta el link:https://community.mellanox.com/s/article/howto-upgrade-switch-os-software-on-mellanox-switch-systems["Guía de actualización de software de Mellanox"^] para obtener más detalles.
 
 
 
 
+[[configure-the-replacement-switch]]
 == Configure el interruptor de sustitución
 
-Realice los pasos necesarios para configurar el interruptor de sustitución. Consulte link:https://docs.mellanox.com/display/MLNXOSv381000/Configuration+Management["Gestión de la configuración de Mellanox"^] para obtener más información.
+Realiza los pasos para configurar el switch de reemplazo. Consulta el enlace: consulta link:https://docs.mellanox.com/display/MLNXOSv381000/Configuration+Management["Gestión de la configuración de Mellanox"^] para más detalles.
 
 .Pasos
 . Elija una de las opciones que se aplican a usted:
@@ -278,6 +283,7 @@ NOTE: No es necesario reiniciar el archivo de texto.
 |===
 
 
+[[complete-the-replacement]]
 == Complete la sustitución
 
 Lleve a cabo los pasos necesarios para completar el procedimiento de sustitución.
@@ -291,8 +297,8 @@ Lleve a cabo los pasos necesarios para completar el procedimiento de sustitució
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 * http://docs.netapp.com/sfe-122/index.jsp["Centro de documentación de SolidFire y el software Element"^]
 

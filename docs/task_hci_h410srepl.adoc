@@ -44,6 +44,7 @@ A continuación se ofrece una descripción general de los pasos de este procedim
 
 
 
+[[prepare-to-replace-the-storage-node]]
 == Prepare para sustituir el nodo de almacenamiento
 
 Debe quitar correctamente el nodo de almacenamiento defectuoso del clúster antes de instalar el nodo de reemplazo. Puede hacer esto sin causar ninguna interrupción del servicio. Debe obtener el número de serie del nodo de almacenamiento con errores en la interfaz de usuario de Element y vincuerlo con el número de serie de la etiqueta en la parte posterior del nodo.
@@ -84,6 +85,7 @@ Ahora puede quitar físicamente el nodo del chasis.
 
 
 
+[[replace-the-storage-node-in-the-chassis]]
 == Sustituya el nodo de almacenamiento en el chasis
 
 Debe instalar el nodo de repuesto en la misma ranura del chasis desde el que quita el nodo con errores. Debe usar el número de serie que anotó en la interfaz de usuario y vincuerlo con el número de serie de la parte posterior del nodo.
@@ -124,6 +126,7 @@ TIP: Asegúrese de que el nodo de reemplazo esté cableado de la misma manera qu
 
 
 
+[[add-the-storage-node-to-the-cluster]]
 == Añada el nodo de almacenamiento al clúster
 
 Debe volver a añadir el nodo de almacenamiento al clúster. Los pasos varían en función de la versión de NetApp HCI que esté ejecutando.
@@ -147,6 +150,7 @@ TIP: Asegúrese de que la capacidad de almacenamiento esté dividida uniformemen
 
 
 
+[[netapp-hci-1-6p1-and-later]]
 === NetApp HCI 1.6P1 y posteriores
 
 Puede utilizar el control del cloud híbrido de NetApp solo si se ejecuta su instalación de NetApp HCI en la versión 1.6P1 o posterior.
@@ -194,6 +198,7 @@ NOTE: La NetApp HCI puede tardar algún tiempo en validar las direcciones IP esp
 
 
 
+[[netapp-hci-1-4-p2-1-4-and-1-3]]
 === NetApp HCI 1.4 P2, 1.4 y 1.3
 
 Si la instalación de NetApp HCI ejecuta la versión 1.4P2, 1.4 o 1.3, puede usar el motor de implementación de NetApp para añadir el nodo al clúster.
@@ -236,6 +241,7 @@ NOTE: No se puede iniciar sesión con las credenciales de protocolo ligero de ac
 
 
 
+[[netapp-hci-1-2-1-1-and-1-0]]
 === NetApp HCI 1.2, 1.1 y 1.0
 
 Cuando instala el nodo, la interfaz de usuario del terminal (TUI) muestra los campos necesarios para configurar el nodo. Debe introducir la información de configuración que necesite para el nodo antes de continuar con la adición del nodo al clúster.
@@ -286,8 +292,8 @@ IMPORTANT: Si se añaden las unidades a la vez, se pueden producir interrupcione
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 * http://docs.netapp.com/sfe-122/index.jsp["Centro de documentación de SolidFire y el software Element"^]
 

@@ -51,6 +51,7 @@ Elija uno de los siguientes procesos de actualización:
 
 
 
+[[use-netapp-hybrid-cloud-control-ui-to-upgrade-a-rancher-deployment]]
 == Utilice la interfaz de usuario de control del cloud híbrido de NetApp para actualizar la puesta en marcha de un Rancher
 
 Con la IU de control de cloud híbrido de NetApp, puede actualizar cualquiera de estos componentes en la implementación de Rancher:
@@ -92,6 +93,7 @@ Aparece un banner para indicar que la actualización del componente se ha realiz
 
 
 
+[[use-netapp-hybrid-cloud-control-api-to-upgrade-a-rancher-deployment]]
 == Utilice la API de control de cloud híbrido de NetApp para actualizar la implementación de Rancher
 
 Puede utilizar las API para actualizar cualquiera de estos componentes en la implementación de Rancher:
@@ -115,6 +117,7 @@ NOTE: Para el sistema operativo del nodo, las actualizaciones sin supervisión d
 
 
 
+[[upgrade-rancher-server]]
 === Actualice Rancher Server
 
 .Comandos de la API
@@ -184,6 +187,7 @@ La actualización ha finalizado correctamente cuando el `PercentComplete` indica
 
 
 
+[[upgrade-rke]]
 === Actualice RKE
 
 .Comandos de la API
@@ -253,6 +257,7 @@ La actualización ha finalizado correctamente cuando el `PercentComplete` indica
 
 
 
+[[apply-node-os-security-updates]]
 === Aplique las actualizaciones de seguridad del sistema operativo del nodo
 
 .Comandos de la API

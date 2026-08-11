@@ -29,6 +29,7 @@ Consulte https://www.netapp.com/us/products/converged-systems/hyper-converged-in
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]

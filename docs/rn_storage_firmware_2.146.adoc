@@ -18,12 +18,14 @@ A partir de Element 12.0 y la versión 2.14 de los servicios de gestión, puede 
 
 
 
+[[whats-new]]
 == Novedades
 
 El paquete de firmware de almacenamiento versión 2.146 contiene diversas correcciones de errores y nuevas funciones, incluidas las correcciones de vulnerabilidades de seguridad. Puede actualizar el firmware de almacenamiento siguiendo las instrucciones de link:task_hcc_upgrade_storage_firmware.html["Actualizar el firmware de almacenamiento"].
 
 
 
+[[updated-firmware-components]]
 === Componentes de firmware actualizados
 
 Este paquete de firmware contiene las siguientes versiones de firmware para componentes de hardware, con las versiones actualizadas en negrita:
@@ -180,6 +182,7 @@ NOTE: La siguiente tabla especifica las versiones de firmware de los componentes
 |===
 
 
+[[changes-in-storage-firmware-components]]
 == Cambios en los componentes del firmware de almacenamiento
 
 |===
@@ -217,12 +220,14 @@ NOTE: La siguiente tabla especifica las versiones de firmware de los componentes
 |===
 
 
+[[resolved-and-known-issues]]
 == Problemas conocidos y resueltos
 
 Consulte la https://mysupport.netapp.com/site/bugs-online/product["Herramienta bugs Online"^] para obtener detalles sobre los problemas que se han resuelto y sobre los nuevos problemas.
 
 
 
+[[accessing-the-bugs-online-tool]]
 === Acceder a la herramienta Bugs Online
 
 . Navegue hasta el  https://mysupport.netapp.com/site/bugs-online/product["Herramienta bugs Online"^] y seleccione *Element Software* de la lista desplegable:
@@ -241,6 +246,7 @@ image::bol_list_bugs_found.png[Notas de la versión del paquete del firmware de 
 
 
 
+[[resolved-security-vulnerabilities]]
 == Vulnerabilidades de seguridad resueltas
 
 Las siguientes son vulnerabilidades de seguridad que se han resuelto en esta versión:

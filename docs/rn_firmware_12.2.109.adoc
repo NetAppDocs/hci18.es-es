@@ -18,6 +18,7 @@ El paquete de firmware de computación descargable contiene las mejoras más rec
 
 
 
+[[whats-new]]
 == Novedades
 
 La versión 12.2.109 presenta la compatibilidad de BMC para las API DMTF Redfish, que permite disfrutar de futuras funcionalidades para el control del cloud híbrido de NetApp. Las actualizaciones del firmware también contienen correcciones de errores generales y resuelven problemas de memoria. Las actualizaciones de BMC para los nodos de computación H300E, H500E y H700E solucionan varias vulnerabilidades de seguridad, incluidas CVE-2019-16649, CVE-2019-16650 y CVE-2019-6260.
@@ -42,6 +43,7 @@ Visite link:task_hcc_upgrade_compute_node_firmware.html#use-the-baseboard-manage
 
 
 
+[[resolved-issues]]
 == Problemas resueltos
 
 Los siguientes son problemas que se resolvieron en esta versión.
@@ -63,6 +65,7 @@ Los siguientes son problemas que se resolvieron en esta versión.
 |===
 
 
+[[known-issues]]
 == Problemas conocidos
 
 A continuación se muestran problemas conocidos en esta versión que pueden afectar al funcionamiento diario en algunos entornos.

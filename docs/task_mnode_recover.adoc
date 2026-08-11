@@ -56,6 +56,7 @@ Es posible implementar un nuevo OVA y ejecutar un script de nueva puesta en marc
 
 
 
+[[download-iso-or-ova-and-deploy-the-vm]]
 == Descargue ISO o OVA e implemente la VM
 
 . Descargue el OVA o ISO para la instalación desde https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["HCI de NetApp"^] la página del sitio de soporte de NetApp:
@@ -97,6 +98,7 @@ NOTE: La instalación de un nodo de gestión con la imagen puede provocar un ret
 
 
 
+[[configure-the-network]]
 == Configure la red
 
 . Con la interfaz de usuario de terminal (TUI), cree un usuario administrador del nodo de gestión.
@@ -113,6 +115,7 @@ NOTE: Si necesita una NIC adicional para aislar el tráfico de almacenamiento, c
 
 
 
+[[configure-time-sync]]
 == Configurar la sincronización de hora
 
 . Asegúrese de que la hora se haya sincronizado entre el nodo de gestión y el clúster de almacenamiento mediante NTP:
@@ -186,10 +189,11 @@ NOTE: No habilite esta opción si realiza cambios futuros en la máquina virtual
 
 
 
-NOTE: No edite el NTP después de completar la configuración de sincronización de tiempo porque afecta al NTP cuando ejecuta el <<step_6_recover_mnode_redeploy,comando re-deploy>> en el nodo de gestión.
+NOTE: No modifiques el NTP una vez completada la configuración de la sincronización horaria, ya que esto afecta al NTP cuando ejecutas el <<step-6,comando re-deploy>> en el nodo de gestión.
 
 
 
+[[configure-the-management-node]]
 == Configure el nodo de gestión
 
 . Cree un directorio de destino temporal para el contenido del paquete de servicios de gestión:
@@ -226,7 +230,7 @@ echo '{"trident": true, "mvip": "[mvip IP address]", "account_name": "[persisten
 
 
 
-. Configure y ejecute el comando de nueva puesta en marcha del nodo de gestión para conectarse a los volúmenes persistentes alojados en el clúster e inicie servicios con datos de configuración de nodos de gestión anteriores:
+. [[step-6]] Configura y ejecuta el comando de reimplementación del nodo de gestión para conectarte a los volúmenes persistentes alojados en el clúster e iniciar los servicios con los datos de configuración anteriores del nodo de gestión:
 +
 
 NOTE: Se le pedirá que introduzca contraseñas en un mensaje seguro. Si su clúster de está situado detrás de un servidor proxy, debe configurar el proxy de manera que pueda llegar a una red pública.

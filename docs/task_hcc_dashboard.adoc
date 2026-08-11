@@ -26,6 +26,7 @@ Solo se muestran en la consola de control de cloud híbrido los nodos de computa
 
 
 
+[[access-the-netapp-hcc-dashboard]]
 == Acceda a la consola HCC de NetApp
 
 . Abra la dirección IP del nodo de gestión en un navegador web. Por ejemplo:
@@ -46,6 +47,7 @@ TIP: Puede que vea algunos o todos estos paneles, según su instalación. Por ej
 
 
 
+[[monitor-storage-resources]]
 == Supervise los recursos de almacenamiento
 
 Utilice el panel *almacenamiento* para ver su entorno de almacenamiento total. Es posible supervisar el número de clústeres de almacenamiento, los nodos de almacenamiento y el total de volúmenes.
@@ -62,6 +64,7 @@ TIP: Para ver los datos más recientes del clúster de almacenamiento, use la p�
 
 
 
+[[monitor-compute-resources]]
 == Supervise los recursos de computación
 
 Utilice el panel *Compute* para ver su entorno informático total de NetApp H-Series. Es posible supervisar el número de clústeres de computación y el total de nodos de computación.
@@ -76,6 +79,7 @@ NOTE: Para gestionar un nodo de computación en el control de la nube híbrida d
 
 
 
+[[monitor-storage-capacity]]
 == Supervise la capacidad de almacenamiento
 
 Supervisar la capacidad de almacenamiento del entorno es crucial. Mediante el panel capacidad de almacenamiento, puede determinar sus ganancias en eficiencia de la capacidad del almacenamiento con o sin funciones de compresión, deduplicación y thin provisioning habilitadas.
@@ -120,6 +124,7 @@ Consulte link:concept_hcc_expandoverview.html["Visión general de la ampliación
 
 
 
+[[monitor-storage-performance]]
 == Supervise el rendimiento del almacenamiento
 
 Puede ver cuántas IOPS o rendimiento puede obtener de un clúster sin superar el rendimiento útil de ese recurso mediante el panel rendimiento del almacenamiento. El rendimiento del almacenamiento es el punto en el que se obtiene la utilización máxima antes de que la latencia empeore.
@@ -155,6 +160,7 @@ https://docs.netapp.com/us-en/vcp/vcp_task_reports_volume_performance.html["Rend
 
 
 
+[[monitor-compute-utilization]]
 == Supervise el uso de los recursos informáticos
 
 Además de supervisar las IOPS y el rendimiento de los recursos de almacenamiento, quizás también desee ver el uso de la CPU y la memoria de sus activos de computación. El número total de IOPS que puede proporcionar un nodo depende de las características físicas del nodo; por ejemplo, el número de CPU, la velocidad de CPU y la cantidad de RAM.

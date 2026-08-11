@@ -61,6 +61,7 @@ Si desea permitir más tiempo al encender los nodos y verificar que su estado se
 ====
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * link:firmware_driver_versions.html["Versiones de firmware y controlador ESXi compatibles para las versiones de NetApp HCI y firmware para los nodos de almacenamiento NetApp HCI"]

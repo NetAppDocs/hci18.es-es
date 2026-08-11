@@ -28,6 +28,7 @@ TIP: Puede ser conveniente conservar los clústeres de usuario. Si los conserva,
 
 
 
+[[remove-rancher-on-netapp-hci-using-netapp-hybrid-cloud-control]]
 == Elimine el Ranchor en NetApp HCI usando el control del cloud híbrido de NetApp
 
 Puede usar la interfaz de usuario web de NetApp Hybrid Cloud Control para quitar las tres máquinas virtuales que se configuraron durante la implementación para alojar el servidor Rancher.
@@ -56,6 +57,7 @@ CAUTION: Al seleccionar *Eliminar* inmediatamente se elimina el Rancher en el cl
 
 
 
+[[remove-rancher-on-netapp-hci-using-the-rest-api]]
 == Quite Rancher en NetApp HCI usando la API DE REST
 
 Puede utilizar la API DE REST de NetApp Hybrid Cloud Control para quitar las tres máquinas virtuales que se configuraron durante la implementación para alojar el servidor Rancher.

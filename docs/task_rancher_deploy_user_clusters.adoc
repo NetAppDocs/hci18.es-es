@@ -18,6 +18,7 @@ Después de implementar Rancher en NetApp HCI, puede configurar clústeres de us
 
 
 
+[[deploy-user-clusters]]
 == Ponga en marcha clústeres de usuario
 
 Después de la implementación, los equipos de Dev y OPS pueden poner en marcha sus clústeres de usuarios de Kubernetes, de forma similar a cualquier puesta en marcha de Rancher en la que puedan poner en marcha aplicaciones.
@@ -29,6 +30,7 @@ Después de la implementación, los equipos de Dev y OPS pueden poner en marcha 
 
 
 
+[[deploy-applications-on-user-clusters]]
 == Poner en marcha aplicaciones en clústeres de usuarios
 
 Al igual que cualquier puesta en marcha de Rancher, se añaden aplicaciones en los clústeres de Kubernetes.

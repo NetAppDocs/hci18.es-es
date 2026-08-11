@@ -50,6 +50,7 @@ NOTE: No quite el nodo del clúster en este momento.
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * http://docs.netapp.com/hci/index.jsp["Centro de documentación de HCI de NetApp"^]

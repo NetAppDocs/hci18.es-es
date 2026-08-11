@@ -19,6 +19,7 @@ Se pueden crear nuevos grupos de acceso de volúmenes, realizar cambios en el no
 
 
 
+[[add-a-volume-access-group]]
 == Añadir un grupo de acceso de volúmenes
 
 Es posible añadir un grupo de acceso de volúmenes a un clúster de almacenamiento mediante NetApp Hybrid Cloud Control.
@@ -40,6 +41,7 @@ Si asocia un iniciador con el grupo de acceso de volúmenes, ese iniciador puede
 
 
 
+[[edit-a-volume-access-group]]
 == Edite un grupo de acceso de volúmenes
 
 Puede editar las propiedades de un grupo de acceso de volúmenes existente mediante NetApp Hybrid Cloud Control. Es posible realizar cambios en el nombre, los iniciadores asociados o los volúmenes asociados de un grupo de acceso.
@@ -58,6 +60,7 @@ Puede editar las propiedades de un grupo de acceso de volúmenes existente media
 
 
 
+[[delete-a-volume-access-group]]
 == Elimine un grupo de acceso de volúmenes
 
 Es posible quitar un grupo de acceso de volúmenes mediante NetApp Hybrid Cloud Control y, al mismo tiempo, quitar los iniciadores asociados con este grupo de acceso del sistema.

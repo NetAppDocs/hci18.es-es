@@ -18,6 +18,7 @@ NetApp HCI tiene requisitos de dirección IP específicos que dependen del tama�
 
 
 
+[[number-of-ip-addresses-needed-per-netapp-hci-deployment]]
 == Número de direcciones IP necesarias por implementación de NetApp HCI
 
 La red de almacenamiento y de gestión de NetApp HCI deben utilizar distintos rangos contiguos de direcciones IP. Utilice la siguiente tabla para determinar cuántas direcciones IP se necesitan en la implementación:
@@ -45,6 +46,7 @@ La red de almacenamiento y de gestión de NetApp HCI deben utilizar distintos ra
 |===
 
 
+[[ip-addresses-reserved-by-netapp-hci]]
 == Direcciones IP reservadas por NetApp HCI
 
 NetApp HCI se reserva los siguientes rangos de direcciones IP para los componentes del sistema. Cuando planifique la red, evite el uso de estas direcciones IP:

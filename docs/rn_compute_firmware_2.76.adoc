@@ -18,12 +18,14 @@ El paquete de firmware de computación descargable contiene las mejoras más rec
 
 
 
+[[whats-new]]
 == Novedades
 
 La versión 2.76 contiene correcciones de errores generales.
 
 
 
+[[updated-firmware-components]]
 === Componentes de firmware actualizados
 
 Este paquete de firmware contiene las siguientes versiones de firmware para componentes de hardware, con las versiones actualizadas en negrita:
@@ -42,6 +44,7 @@ Este paquete de firmware contiene las siguientes versiones de firmware para comp
 |===
 
 
+[[changes-in-firmware-components]]
 === Cambios en los componentes de firmware
 
 A continuación, se muestran los detalles de las mejoras y cambios incluidos en cada componente de firmware nuevo:
@@ -59,6 +62,7 @@ A continuación, se muestran los detalles de las mejoras y cambios incluidos en 
 |===
 
 
+[[mellanox-nic-firmware-driver-compatibility]]
 === Compatibilidad del controlador de firmware de Mellanox NIC
 
 Las versiones 14.25.1020 y 14.24.1000 del firmware de Mellanox actualizadas solo son compatibles con las siguientes versiones del controlador ESXi de VMware:
@@ -76,6 +80,7 @@ Aunque el motor de puesta en marcha de NetApp 1.8P1 no pone en marcha ESXi versi
 
 
 
+[[download-compute-firmware-bundle-2-76]]
 == Descargue el paquete de firmware de computación 2.76
 
 Para descargar el paquete de firmware de computación, vaya a https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab/download/62542/Compute_Firmware_Bundle["Paquete de firmware de computación NetApp HCI"^] la página.
@@ -84,6 +89,7 @@ Visite link:task_hcc_upgrade_compute_node_firmware.html#use-the-baseboard-manage
 
 
 
+[[resolved-security-vulnerabilities]]
 == Vulnerabilidades de seguridad resueltas
 
 Las siguientes son vulnerabilidades de seguridad que se han resuelto en esta versión:
@@ -94,12 +100,14 @@ Las siguientes son vulnerabilidades de seguridad que se han resuelto en esta ver
 
 
 
+[[resolved-and-known-issues]]
 == Problemas conocidos y resueltos
 
 Consulte la https://mysupport.netapp.com/site/bugs-online/product["Herramienta bugs Online"^] para obtener detalles sobre los problemas que se han resuelto y sobre los nuevos problemas.
 
 
 
+[[accessing-the-bol-tool]]
 === Acceso a la herramienta Bol
 
 . Navegue hasta el https://mysupport.netapp.com/site/bugs-online/product["Herramienta BOL"^] y seleccione *Element Software* de la lista desplegable:

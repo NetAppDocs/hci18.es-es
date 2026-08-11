@@ -34,6 +34,7 @@ A continuación se ofrece una descripción general de los pasos de este procedim
 
 
 
+[[prepare-to-replace-the-node]]
 == Prepare para sustituir el nodo
 
 Antes de reemplazar el nodo, debe migrar las máquinas virtuales (VM) alojadas en el nodo a un host disponible y quitar el nodo del clúster. Debe obtener detalles sobre el nodo, como el número de serie y la información de red.
@@ -63,6 +64,7 @@ Necesita el número de serie para identificar el chasis emparejando el número q
 
 
 
+[[replace-the-node]]
 == Sustituya el nodo
 
 Después de quitar el nodo con errores del clúster, puede quitar el chasis con errores e instalar el chasis de reemplazo.
@@ -96,6 +98,7 @@ CAUTION: Si la apertura de flujo de aire de la parte trasera del chasis está bl
 
 
 
+[[add-the-node-to-the-cluster]]
 == Añada el nodo al clúster
 
 Debe configurar NetApp HCI para usar el nodo de computación nuevo.
@@ -183,6 +186,7 @@ TIP: Para algunos nodos de computación, es posible que deba habilitar EVC en el
 
 
 
+[[install-the-gpu-drivers]]
 == Instale los controladores de la GPU
 
 Los nodos de computación con unidades de procesamiento de gráficos (GPU) de NVIDIA, al igual que el nodo H610C, necesitan los controladores de software de NVIDIA instalados en VMware ESXi para poder aprovechar la potencia de procesamiento aumentada. Para instalar las controladoras de GPU, el nodo de computación debe tener una tarjeta GPU.
@@ -263,8 +267,8 @@ scp $HOME/NVIDIA/ESX6.7/NVIDIA**.vib root@<ESXi_IP_ADDR>:/.
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 * http://docs.netapp.com/sfe-122/index.jsp["Centro de documentación de SolidFire y el software Element"^]
 

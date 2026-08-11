@@ -40,6 +40,7 @@ Las actualizaciones con Hybrid Cloud Control de NetApp no están disponibles en 
 
 
 
+[[sysupgradeseqsystem-upgrade-sequence]]
 == [[sys_upgrade_seq]]secuencia de actualización del sistema
 
 .Pasos

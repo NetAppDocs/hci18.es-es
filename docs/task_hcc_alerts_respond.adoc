@@ -18,6 +18,7 @@ Puede ver y responder rápidamente a las alertas en la consola de Cloud Control.
 
 
 
+[[steps]]
 == Pasos
 
 . Vaya a la https://fabric.netapp.io["Fabric Orchestrator de NetApp"^] página de inicio de sesión.
@@ -41,6 +42,6 @@ Con Cloud Central, puede configurar cuentas como cuentas individuales o como cue
 [discrete]
 == Obtenga más información
 
-* https://cloud.netapp.com/home["Cloud Central de NetApp"^]
+* https://www.netapp.com/google-cloud/netapp-volumes/["Cloud Central de NetApp"^]
 * https://docs.netapp.com/us-en/cloud/["Documentación sobre cloud de NetApp"^]
 

@@ -26,6 +26,7 @@ Después de implementar el sistema, puede realizar los siguientes cambios en la 
 
 
 
+[[h300e-h500e-h700e-and-h410c-compute-nodes]]
 == Los nodos de computación H300E, H500E, H700E y H410C
 
 NetApp HCI espera la siguiente configuración de red para los nodos H300E, H500E, H700E y H410C.
@@ -83,6 +84,7 @@ A continuación se muestra una configuración con dos interfaces. Esta configura
 |===
 
 
+[[h610c-compute-nodes]]
 == Nodos de computación H610C
 
 NetApp HCI espera la siguiente configuración de red para los nodos H610C.
@@ -109,6 +111,7 @@ NOTE: Los puertos A y B no se utilizan en H610C.
 |===
 
 
+[[h615c-compute-nodes]]
 == Nodos de computación H615C
 
 NetApp HCI espera la siguiente configuración de red para los nodos H615C.
@@ -132,6 +135,7 @@ Esta configuración solo se admite cuando se utiliza con switches distribuidos (
 |===
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]

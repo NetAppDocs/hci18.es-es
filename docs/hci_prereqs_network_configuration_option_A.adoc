@@ -18,6 +18,7 @@ NetApp HCI puede utilizar varias configuraciones de VLAN y cableado de red disti
 
 
 
+[[configuration-option-a-two-cables-for-compute-nodes]]
 == Opción de configuración A: Dos cables para nodos de computación
 
 Los nodos de computación NetApp H410C, H610C y H615C admiten el uso de dos cables de red para conectividad a todas las redes NetApp HCI. Esta configuración requiere que las redes de almacenamiento, vMotion y máquina virtual utilicen el etiquetado de VLAN. Todos los nodos de computación y de almacenamiento deben usar el mismo esquema de ID de VLAN. Esta configuración utiliza switches distribuidos de vSphere que requieren licencia VMware vSphere Enterprise Plus.
@@ -55,6 +56,7 @@ Esta configuración utiliza los siguientes puertos de red en cada nodo:
 |===
 
 
+[[vlan-configuration]]
 === Configuración de VLAN
 
 Una práctica recomendada es configurar los segmentos de red necesarios en todos los puertos del switch que usen los nodos. Por ejemplo:
@@ -80,6 +82,7 @@ image::hci_networking_config_scenario_1.png[Opción de configuración a image de
 
 
 
+[[example-switch-commands]]
 === Comandos del switch de ejemplo
 
 Es posible usar los siguientes comandos de ejemplo a fin de configurar todos los puertos del switch utilizados para los nodos de NetApp HCI. Estos comandos se basan en una configuración de Cisco, pero podrían requerir únicamente pequeños cambios para aplicarlos a los switches Mellanox. Consulte en la documentación de su switch los comandos específicos que necesita para implementar esta configuración. Reemplace el nombre de la interfaz, la descripción y las VLAN por los valores para su entorno.

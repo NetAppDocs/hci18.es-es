@@ -15,6 +15,7 @@ Tareas que se pueden realizar con API de REST:
 
 
 
+[[authorization]]
 == Autorización
 
 * link:task_mnode_api_get_authorizationtouse.html["Obtenga autorización para utilizar las API de REST"]
@@ -22,6 +23,7 @@ Tareas que se pueden realizar con API de REST:
 
 
 
+[[asset-configuration]]
 == Configuración de activos
 
 * link:task_mnode_enable_activeIQ.html["Habilite la supervisión de Active IQ y NetApp HCI"]
@@ -33,12 +35,13 @@ Tareas que se pueden realizar con API de REST:
 
 
 
+[[asset-management]]
 == Gestión de activos
 
 * link:task_mnode_edit_vcenter_assets.html["Ver o editar activos de controladora existentes"]
 * link:task_mnode_manage_storage_cluster_assets.html["Crear y gestionar activos de clúster de almacenamiento"]
 * link:task_mnode_remove_assets.html["Quite un activo del nodo de gestión"]
-* link:task_hcc_collectlogs.html#use-the-rest-api-to-collect-netapp-hci-logs["Use la API DE REST para recoger registros de NetApp HCI"]
+* link:task_hcc_collectlogs.html#use-the-rest-api-to-collect-logs["Use la API DE REST para recoger registros"]
 * link:task_mnode_api_find_mgmt_svcs_version.html["Verifique el sistema operativo del nodo de gestión y las versiones de servicios"]
 * link:task_mnode_logs.html["Obtener registros de los servicios de gestión"]
 

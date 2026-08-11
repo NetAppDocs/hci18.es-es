@@ -26,6 +26,7 @@ Elija una de las siguientes opciones para cambiar las credenciales de BMC:
 
 
 
+[[use-netapp-hybrid-cloud-control-to-edit-bmc-information]]
 == Utilice el control del cloud híbrido de NetApp para editar la información de BMC
 
 Puede editar las credenciales de BMC almacenadas mediante la consola de Cloud Control de cloud híbrido de NetApp.
@@ -58,6 +59,7 @@ NOTE: Al actualizar la información de BMC, se actualiza el inventario y se gara
 
 
 
+[[use-the-rest-api-to-edit-bmc-information]]
 == Use la API DE REST para editar información de BMC
 
 Puede editar las credenciales de BMC almacenadas mediante la API DE REST de NetApp Hybrid Cloud Control.
