@@ -42,5 +42,4 @@ Consulte la documentación de Rancher Acerca de https://rancher.com/docs/rancher
 
 * https://rancher.com/docs/rancher/v2.x/en/overview/architecture/["Documentación de rancher sobre arquitectura"^]
 * https://rancher.com/docs/rancher/v2.x/en/overview/concepts/["Terminología de Kubernetes para Rancher"^]
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 

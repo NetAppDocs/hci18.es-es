@@ -39,5 +39,4 @@ La página Rancher Server Clusters muestra una lista de clústeres de servidores
 * link:task_rancher_remove_deployment.html["Retire el Ranchor"]
 * https://rancher.com/docs/rancher/v2.x/en/overview/architecture/["Documentación de rancher sobre arquitectura"^]
 * https://rancher.com/docs/rancher/v2.x/en/overview/concepts/["Terminología de Kubernetes para Rancher"^]
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 

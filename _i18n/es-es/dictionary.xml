@@ -38,7 +38,6 @@
   <block id="6e01d05e4b275a453ce6579c743a5b0d" category="list-text"><block ref="6e01d05e4b275a453ce6579c743a5b0d" category="inline-link-macro-rx"></block></block>
   <block id="62ccae3874e01d29fdbcf40fdcbabe07" category="inline-link-macro">Obtenga información acerca de los clústeres</block>
   <block id="28a1b7032dbb17f4e087c70b76748bd6" category="list-text"><block ref="28a1b7032dbb17f4e087c70b76748bd6" category="inline-link-macro-rx"></block></block>
-  <block id="c93817bbfc3fab71f5f7ca740a11c847" category="inline-link">Recursos de NetApp HCI</block>
   <block id="a881a0468246e93ae6e2c5bccd78758e" category="inline-link">Plugin de NetApp Element para vCenter Server</block>
   <block id="7cf5cffc3745b8348cdcfb1c3d0d472f" category="list-text"><block ref="7cf5cffc3745b8348cdcfb1c3d0d472f" category="inline-link-rx"></block></block>
   <block id="5f8609d94e6e2b2aad3f901f8d386c98" category="list-text"><block ref="5f8609d94e6e2b2aad3f901f8d386c98" category="inline-link-rx"></block></block>
@@ -308,7 +307,6 @@
   <block id="2f4701ce20b5c681c857881cc2970a7d" category="paragraph">Las políticas de calidad de servicio son mejores para los entornos de servicio, por ejemplo, con servidores de bases de datos, aplicaciones o infraestructuras que rara vez se reinician y necesitan igual acceso constante al almacenamiento. La calidad de servicio de un volumen individual es la mejor opción para equipos virtuales de uso reducido, como escritorios virtuales o equipos virtuales especializados de tipo quiosco, que pueden reiniciarse, encenderse o apagarse a diario o varias veces al día.</block>
   <block id="ba8b235acf66ccaa2a58d3c600041f64" category="paragraph">Las políticas de calidad de servicio y calidad de servicio no se deben utilizar juntas. Si utiliza políticas de calidad de servicio, no use la calidad de servicio personalizada en un volumen. La calidad de servicio personalizada anulará y ajustará los valores de las políticas de calidad de servicio de los volúmenes.</block>
   <block id="28ecf024dd3eb42bbaec82a47ef72ef8" category="admonition">El clúster seleccionado debe ser Element 10.0 o posterior para usar políticas de calidad de servicio; de lo contrario, las funciones de las políticas de calidad de servicio no estarán disponibles.</block>
-  <block id="bc218e71c18c2f809dffb10d3bc2a6e8" category="list-text"><block ref="bc218e71c18c2f809dffb10d3bc2a6e8" category="inline-link-rx"></block></block>
   <block id="c0cda695e432a2da0a07ba54f7e398b9" category="doc">Información general del producto NetApp HCI</block>
   <block id="a88f93293078d6fa7dbd7fb84fb5cb0f" category="paragraph">NetApp HCI es un diseño de infraestructura de cloud híbrido de clase empresarial que combina el almacenamiento, la computación, la conexión a redes y el hipervisor, y añade funcionalidades que abarcan los clouds privados y públicos.</block>
   <block id="319d1fe55874ca24af2a93f1018074f8" category="paragraph">La infraestructura de cloud híbrido desagregada de NetApp permite un escalado independiente de la computación y el almacenamiento, adaptándose a las cargas de trabajo con un rendimiento garantizado.</block>
@@ -3134,7 +3132,6 @@
   <block id="86eda75a7f9a428040647949a600637f" category="list-text">Vuelva a autenticarse si es necesario y seleccione *PONER ​/actualizaciones/{actualizeId}*.</block>
   <block id="0f449201481f814f1674b02766850303" category="list-text">Introduzca<block ref="38900dbc8e536ba8c6e0381e43bdc727" prefix=" " category="inline-code"></block> el cuerpo de la solicitud.</block>
   <block id="ecfc48ecc069bce7a3654faa3d90f6ba" category="cell">Si va a actualizar un clúster H610S que ejecuta una versión de Element anterior a 11,8, verá el estado<block ref="95caf0460bfda12f8e917cd3e70fe1ed" prefix=" " category="inline-code"></block> en el cuerpo de la respuesta. Debe realizar pasos de actualización adicionales (fase 2) para cada nodo de almacenamiento H610S.</block>
-  <block id="e18a1ac60ff210e22593afb8e185bf9f" category="list-text"><block ref="1ae56f0e943701c7ec083b1053409edf" category="inline-xref-macro-rx"></block>Consulte y complete el proceso de cada nodo.</block>
   <block id="81175df6f619617903d93fd97b35f2a3" category="list-text">Introduzca<block ref="03a59f77ab63b5c97788855227f2b3c6" prefix=" " category="inline-code"></block> el cuerpo de la solicitud.</block>
   <block id="0dc6c0e63057b6a7522f5bbf03ae2e48" category="list-text">Ejecute la API *GET ​/upgrades/{actualizable Id}* varias veces, según sea necesario, hasta que el proceso se complete.</block>
   <block id="05e1370c6bc841bbf10001b3bec41c0e" category="paragraph">Durante la actualización,<block ref="9acb44549b41563697bb490144ec6258" prefix=" " category="inline-code"></block> indica<block ref="75101dcdfc88455bcafc9e53e0b06689" prefix=" " category="inline-code"></block> si no se han producido errores. A medida que se actualiza cada nodo, el<block ref="2764ca9d34e90313978d044f27ae433b" prefix=" " category="inline-code"></block> valor cambia a<block ref="b2937dba94e898beb5b18662e63c5a31" prefix=" " category="inline-code"></block>.</block>
@@ -5008,7 +5005,6 @@
   <block id="1632315c8463eb1e9d1b980297d68c37" category="list-text">Adjunte ISO a la máquina virtual y arranque en la imagen de instalación .iso.</block>
   <block id="61106ad2e01de8b06da3caf17edacd33" category="admonition">La instalación de un nodo de gestión con la imagen puede provocar un retraso de 30 segundos antes de que aparezca la pantalla de inicio.</block>
   <block id="faa024991ac61fa39b20d61ed2e88ada" category="list-text">Active la máquina virtual del nodo de gestión cuando se complete la instalación.</block>
-  <block id="f894cbc944582e1f10fec4bf2a0639f0" category="section-title">Cree el administrador del nodo de gestión y configure la red</block>
   <block id="89a5998e39cd115fb9ad9a738c937a43" category="list-text">Con la interfaz de usuario de terminal (TUI), cree un usuario administrador del nodo de gestión.</block>
   <block id="0fa5092b4d1d6032dc65fd0a3c71a906" category="admonition">Para desplazarse por las opciones del menú, pulse las teclas de flecha hacia arriba o hacia abajo. Para desplazarse por los botones, pulse TAB. Para pasar de los botones a los campos, pulse TAB. Para desplazarse por los campos, pulse las teclas de flecha hacia arriba o hacia abajo.</block>
   <block id="c19f63a05ffe39159954c2b2fd892582" category="list-text">Si hay un servidor de protocolo de configuración dinámica de hosts (DHCP) en la red que asigna direcciones IP con una unidad de transmisión máxima (MTU) inferior a 1500 bytes, debe realizar los siguientes pasos:</block>
@@ -5039,7 +5035,6 @@
   <block id="5713fd020209c4c609f636c33df03095" category="list-text">En vSphere, compruebe que la<block ref="31aa78e37f0aeb3e8c9c5025431be8f0" prefix=" " category="inline-code"></block> casilla esté desactivada en las opciones de la máquina virtual.</block>
   <block id="29c3f66306d4b9c80ad86deebb2fabcf" category="admonition">No habilite esta opción si realiza cambios futuros en la máquina virtual.</block>
   <block id="2d80cb22364fea2daaca797ae1d938cb" category="inline-link-macro">comando setup</block>
-  <block id="627bbdc5a7179606b85a5d6ccb6f65e1" category="section-title">Configure el nodo de gestión</block>
   <block id="5a808c62f4f9557c4df556d6a230ba7c" category="list-text">Configure y ejecute el comando de configuración del nodo de gestión:</block>
   <block id="58df37229524fed632f3c53880c146c3" category="admonition">Se le pedirá que introduzca contraseñas en un mensaje seguro. Si su clúster de está situado detrás de un servidor proxy, debe configurar el proxy de manera que pueda llegar a una red pública.</block>
   <block id="57aa15c5b6505e27c5150f48bdab73d6" category="list-text">Sustituya el valor entre corchetes [ ] (incluidos los corchetes) para cada uno de los siguientes parámetros necesarios:</block>
@@ -6289,4 +6284,9 @@
   <block id="306dce65244454f104c560984a933a89" category="admonition">No modifiques el NTP una vez completada la configuración de la sincronización horaria, ya que esto afecta al NTP cuando ejecutas el <block ref="d4cc54860504c9dd35fa60f279389412" category="inline-xref-macro-rx"></block> en el nodo de gestión.</block>
   <block id="d6352877dcd2cf0801fbfb4ea843c259" category="list-text">[[step-6]] Configura y ejecuta el comando de reimplementación del nodo de gestión para conectarte a los volúmenes persistentes alojados en el clúster e iniciar los servicios con los datos de configuración anteriores del nodo de gestión:</block>
   <block id="370b6a48ac72103f3329504653be50fe" category="list-text"><block ref="370b6a48ac72103f3329504653be50fe" category="inline-link-macro-rx"></block></block>
+  <block id="fb9099604c3233c77b3c8b5487c99eb3" category="list-text">Completa los pasos adicionales de actualización en este<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block> para cada nodo.</block>
+  <block id="6d8cd87a85946daeae42cb54aade3baa" category="section-title">Paso 1: descarga el archivo ISO u OVA e implementa la máquina virtual</block>
+  <block id="c6913d34fefabb7329dba971ad99632d" category="section-title">Paso 2: crea el nodo de gestión admin y configura la red</block>
+  <block id="5e0472334bca93d0d28d3eeaaf723518" category="section-title">Paso 3: Configura la sincronización horaria</block>
+  <block id="ef246c91c687e7d720eb49c5e2a4cd47" category="section-title">Paso 4: Configura el nodo de gestión</block>
 </blocks>

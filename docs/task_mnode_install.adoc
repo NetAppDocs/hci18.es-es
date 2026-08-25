@@ -52,17 +52,17 @@ Antes de seguir este procedimiento, debe tener un conocimiento de link:concept_h
 
 .Pasos
 . <<Descargue ISO o OVA e implemente la VM>>
-. <<Cree el administrador del nodo de gestión y configure la red>>
+. <<Create the management node admin and configure the network>>
 . <<Configurar la sincronización de hora>>
-. <<Configure el nodo de gestión>>
+. <<Set up the management node>>
 . <<Configurar activos de controladora>>
 . <<Configure compute node assets,(Solo NetApp HCI) Configure los activos de nodos de computación>>
 
 
 
 
-[[download-iso-or-ova-and-deploy-the-vm]]
-== Descargue ISO o OVA e implemente la VM
+[[step-1-download-iso-or-ova-and-deploy-the-vm]]
+== Paso 1: descarga el archivo ISO u OVA e implementa la máquina virtual
 
 . Descargue el OVA o ISO para la instalación desde https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["HCI de NetApp"^] la página del sitio de soporte de NetApp:
 +
@@ -108,8 +108,8 @@ NOTE: La instalación de un nodo de gestión con la imagen puede provocar un ret
 
 
 
-[[create-the-management-node-admin-and-configure-the-network]]
-== Cree el administrador del nodo de gestión y configure la red
+[[step-2-create-the-management-node-admin-and-configure-the-network]]
+== Paso 2: crea el nodo de gestión admin y configura la red
 
 . Con la interfaz de usuario de terminal (TUI), cree un usuario administrador del nodo de gestión.
 +
@@ -137,8 +137,8 @@ NOTE: Si necesita una NIC adicional para aislar el tráfico de almacenamiento, c
 
 
 
-[[configure-time-sync]]
-== Configurar la sincronización de hora
+[[step-3-configure-time-sync]]
+== Paso 3: Configura la sincronización horaria
 
 . Asegúrese de que la hora se haya sincronizado entre el nodo de gestión y el clúster de almacenamiento mediante NTP:
 
@@ -215,8 +215,8 @@ NOTE: No modifiques el NTP una vez completada la configuración de la sincroniza
 
 
 
-[[set-up-the-management-node]]
-== Configure el nodo de gestión
+[[step-4-set-up-the-management-node]]
+== Paso 4: Configura el nodo de gestión
 
 . Configure y ejecute el comando de configuración del nodo de gestión:
 +

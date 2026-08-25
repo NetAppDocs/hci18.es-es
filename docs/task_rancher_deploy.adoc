@@ -164,5 +164,4 @@ Después de la implementación, puede realizar lo siguiente:
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/NetApp_HCI_and_Rancher_troubleshooting["Solución de problemas de implementación de rancher"^]
 * https://rancher.com/docs/rancher/v2.x/en/overview/architecture/["Documentación de rancher sobre arquitectura"^]
 * https://rancher.com/docs/rancher/v2.x/en/overview/concepts/["Terminología de Kubernetes para Rancher"^]
-* https://www.netapp.com/us/documentation/hci.aspx["Recursos de NetApp HCI"^]
 
